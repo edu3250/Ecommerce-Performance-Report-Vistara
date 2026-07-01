@@ -1,0 +1,52 @@
+.venv/
+env/
+venv/
+ENV/
+assets/
+# =======================
+# Jupyter
+# =======================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# =======================
+# Python cache
+# =======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg-info/
+dist/
+build/
+*.egg
+
+# =======================
+# Variables de entorno
+# =======================
+.env
+.env.*
+!.env.example
+
+# =======================
+# VS Code
+# =======================
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# =======================
+# Windows
+# =======================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =======================
+# Logs
+# =======================
+*.log
+logs/

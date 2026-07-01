@@ -1,0 +1,320 @@
+<div align="center">
+
+<img src="assets/logo.svg" alt="VISTARA — Premium Fashion · Mexico" width="380"/>
+
+<br/><br/>
+
+# Customer Intelligence Report
+
+### Python · PostgreSQL · Power BI · Deneb
+
+*A full-stack data project: synthetic data generation → relational database → analytical SQL views → interactive Power BI dashboard*
+
+</div>
+
+---
+
+## Client Background
+
+**VISTARA** is a fictional Mexican premium fashion e-commerce brand built as the analytical backbone of a real-world data project. The goal was to simulate a production-grade analytics pipeline from raw data generation to executive-ready dashboards.
+
+- **Market:** Premium apparel & accessories, Mexico
+- **Data period:** January 2024 – December 2024
+- **Customer base:** 10,000 registered customers across 5 behavioral tiers
+- **Transaction volume:** ~219,000 sales receipts
+- **Reference date:** January 1, 2025 (RFM anchor point)
+
+**Northstar metrics for this analysis:**
+
+- 📈 Monthly net revenue trend and MoM growth
+- 🎯 RFM customer segmentation (Recency · Frequency · Monetary)
+- 🔄 Churn risk classification and retention rate
+- 👥 Cohort retention — tracking customer lifetime month by month
+
+---
+
+## Executive Summary
+
+<div align="center">
+
+*Page 1 — Executive KPIs Dashboard*
+
+</div>
+
+| KPI | Value | Trend |
+|-----|-------|-------|
+| Total Net Revenue (1Y) | ~$1.72M / month avg | ▲ Peaks in Q1 and Q4 |
+| MoM Revenue Growth | Tracked dynamically | Compared to prior month |
+| Avg Spend per Customer | Calculated by period | Period-filtered |
+| Churn Rate | Dynamic by period | Inverted indicator (↓ = good) |
+| Total Registered Customers | 10,000 | Stable base |
+
+**Key executive findings:**
+
+1. **Revenue is driven by a small champion segment.** The top 5% of customers (Champions tier) generate disproportionate revenue — consistent with the Pareto distribution used in data generation and confirmed by the RFM treemap.
+
+2. **Loyal Customers peak at 15–25 months of tenure.** Beyond that window, engagement and average spend drop significantly — signaling a retention risk window that is actionable.
+
+3. **Champions grow in value with tenure.** Unlike other segments, Champions' average spend increases continuously up to 75 months of relationship — making long-term retention the highest-ROI strategy.
+
+4. **Cohort retention decays rapidly after Month 1.** January cohort retains ~59% in Month 1, dropping to ~36% by Month 3 — typical for premium fashion e-commerce, but improvement is feasible through loyalty incentives.
+
+---
+
+## Dataset Structure & ERD
+
+The database was generated entirely in Python using a Pareto-weighted behavioral model and loaded into PostgreSQL under the `vistara` schema.
+
+```
+vistara_db
+└── schema: vistara
+    ├── dim_customers         — 10,000 customers with tier assignment
+    ├── dim_products          — product catalog with categories
+    ├── dim_sales_outlet      — store locations
+    ├── dim_dates             — full date dimension
+    ├── fact_sales_receipts   — ~219K transactions
+    ├── fact_order_details    — line-level detail (price, qty, discount)
+    ├── fact_returns          — ~1,572 returns (~0.72% return rate)
+    └── fact_inventory        — stock records
+```
+
+**Customer tier distribution (Pareto weights):**
+
+| Tier | % of Customers | Purchase Weight | Active Until |
+|------|---------------|----------------|-------------|
+| Champions | 5% | 50x | December |
+| Loyal | 15% | 15x | October |
+| Regular | 25% | 5x | July |
+| Occasional | 30% | 2x | April |
+| One-time | 25% | 0.5x | February |
+
+> The Pareto weighting ensures realistic purchase frequency variance: min 1 order, median 7, max 129 per customer.
+
+---
+
+## Analytical SQL Views
+
+Five analytical views are built on top of the fact tables, forming the data layer consumed by Power BI.
+
+```
+fact_sales_receipts + fact_order_details + fact_returns
+        │
+        ├──► v_rfm_base          ← raw R/F/M values per customer
+        │         │
+        │    v_rfm_scores        ← NTILE(5) scores per dimension
+        │         │
+        │    v_rfm_segments      ← named segments (Champions, At Risk…)
+        │
+        ├──► v_churn_analysis    ← Active / At Risk / Churned
+        │
+        ├──► v_monthly_revenue   ← monthly net revenue summary
+        │
+        ├──► v_monthly_retention ← retained vs. new customers per month
+        │
+        └──► v_cohort_retention  ← cohort matrix (M0, M1, M2… retention %)
+```
+
+**RFM scoring logic (NTILE-based):**
+
+```sql
+recency_score   = 6 - NTILE(5) OVER (ORDER BY days_since_last_purchase ASC)
+frequency_score = NTILE(5) OVER (ORDER BY total_orders ASC)
+monetary_score  = NTILE(5) OVER (ORDER BY net_spend ASC)
+```
+
+Score 5 = best in that dimension. Recency is inverted: fewer days since last purchase = higher score.
+
+**Churn classification:**
+
+| Status | Criterion |
+|--------|-----------|
+| Active | Last purchase ≤ 90 days ago (Oct–Dec 2024) |
+| At Risk | Last purchase 91–180 days ago (Jul–Sep 2024) |
+| Churned | Last purchase > 180 days ago (before Jul 2024) |
+
+---
+
+## Revenue Trend Analysis
+
+<div align="center">
+
+*Page 1 — Monthly Revenue with dynamic period selector (1W · 1M · 3M · 6M · 9M · 1Y)*
+
+</div>
+
+**Architecture:** All measures compute their date range internally using `EDATE()` and `YYYYMM` arithmetic — no `DATESBETWEEN()` — because PostgreSQL views have no active relationship with `dim_dates` in the Power BI model.
+
+**Key findings:**
+
+- Revenue peaks appear in **Q1 (January)** and **Q4 (November–December)**, consistent with fashion retail seasonal patterns
+- The **Moving Average** line (configurable 3M / 6M / 12M window) smooths spikes and confirms an underlying upward trend through Q3
+- **MoM Revenue card** compares the last full month vs. the previous month — always anchored to December vs. November regardless of the period slicer selection
+- The **period selector** dynamically adjusts all KPI cards, the bar chart, and the comparison subtitle simultaneously via a disconnected table (`Date selection`) with SELECTEDVALUE() bridge
+
+---
+
+## RFM Segmentation Analysis
+
+<div align="center">
+
+*Page 2 — RFM Treemap + Scatter Chart*
+
+</div>
+
+**Segment distribution (treemap):**
+
+| Segment | Condition | Typical Behavior |
+|---------|-----------|-----------------|
+| Champions | R≥4, F≥4, M≥4 | High frequency, high spend, very recent |
+| Loyal Customers | F≥4, M≥3 | Consistent buyers, moderate recency |
+| Potential Loyalists | R≥3, F≥2 | Recent but still building frequency |
+| At Risk | R≤2, F≥3 | Used to buy often, now inactive |
+| Hibernating | R≤2, F≤2 | Low engagement across all dimensions |
+| New Customers | R≥4, F≤1 | First purchase was recent |
+
+**Spend & frequency by customer tenure (scatter chart):**
+
+The bubble chart (`avg net_spend` × `months_active`, sized by `total_orders`) reveals two distinct behavioral curves:
+
+- **Loyal Customers** peak at **15–25 months** of tenure, then decline — creating a clear retention risk window
+- **Champions** show a **continuously increasing** spend curve up to 75 months — the longer the relationship, the more valuable they become
+- A data gap between months 10–30 in Champions reflects the bimodal distribution of acquisition dates in the synthetic dataset
+
+---
+
+## Churn Analysis
+
+<div align="center">
+
+*Page 2 — Dynamic Pie Chart (Bookmarks)*
+
+</div>
+
+The pie chart switches dynamically between **RFM segment view** and **churn status view** via a Bookmark Navigator — two pie charts stacked in the same canvas position, toggled by bookmarks.
+
+> **Technical note (D-011):** Field Parameters with columns from two unrelated tables throw "too many columns in Legend" in pie charts. The bookmark pattern is the correct Power BI approach for this case.
+
+**Churn rate card behavior:**
+- Color logic is **inverted** vs. revenue cards: a decrease (▼) is green, an increase (▲) is red
+- The `1Y` period uses a fixed Churned count from `v_churn_analysis[churn_status]` rather than a date-range filter — because "Churned" is already defined as > 180 days inactive, so filtering by a 1Y window would double-count
+
+---
+
+## Cohort Retention Analysis
+
+<div align="center">
+
+*Page 2 — Cohort Heatmap (HTML Visual)*
+
+</div>
+
+The cohort matrix tracks what percentage of customers acquired in month M return in months M+1, M+2, M+3...
+
+**How it works:**
+
+```sql
+-- Assign each customer to their first-purchase month (cohort)
+-- Then LEFT JOIN with subsequent months to tag Retained vs. New
+-- retention_pct = customers active in month M / cohort size at M0
+```
+
+**Sample output:**
+
+| Cohort | M0 | M1 | M2 | M3 | M4 |
+|--------|----|----|----|----|-----|
+| 2024-01 | 100% | 59.3% | 63.4% | 60.4% | 58.9% |
+| 2024-02 | 100% | 37.0% | 36.6% | 27.9% | 28.7% |
+| 2024-03 | 100% | 38.4% | 25.8% | 24.8% | 27.5% |
+
+> The heatmap is rendered as a **DAX HTML measure** (`Cohort Heatmap HTML`) using nested `CONCATENATEX` — one iteration per cohort row, one per month column — with inline CSS color scale. This replaces the native Power BI Matrix visual for full control over empty cells, color gradients, and the absence of a misleading Total column.
+
+**Color scale:**
+
+| Range | Color | Meaning |
+|-------|-------|---------|
+| ≥ 80% | `#2D6A4F` | Excellent retention |
+| 60–79% | `#52B788` | Good |
+| 40–59% | `#E9C46A` | Average |
+| 20–39% | `#E76F51` | At risk |
+| < 20% | `#C05B5B` | Critical |
+
+---
+
+## Dashboard Pages
+
+| Page | Title | Visuals | Status |
+|------|-------|---------|--------|
+| 1 | Executive KPIs | Bar+line chart · 4 HTML KPI cards · Period slicer | 🔄 In progress |
+| 2 | RFM + Retention | Treemap · Scatter · Pie (bookmarks) · Combo chart · Cohort heatmap | 🔄 In progress |
+| 3 | Churn Analysis | — | ⏳ Pending |
+| 4 | Monthly Revenue | Deneb Vega-Lite bar+line chart | 🔄 Active |
+
+**Power BI model relationships:**
+
+```
+dim_customers    ──► v_rfm_segments      (customer_id)
+dim_customers    ──► v_churn_analysis    (customer_id)
+dim_sales_outlet ──► v_rfm_segments      (sales_outlet_id → home_store)
+v_monthly_revenue ──► v_monthly_retention (year_month_key)  [One-to-One]
+```
+
+> `year_month_key = year_id * 100 + month_id` — created in Power Query on both tables to enable a single-column relationship between monthly views (D-012).
+
+---
+
+## Recommendations
+
+### Revenue
+- **Capitalize on Q1 momentum.** January shows the highest revenue peaks — launch loyalty campaigns in December to prime customers for Q1 purchasing.
+- **Investigate Q3 softness.** The moving average confirms a mid-year dip. A targeted mid-year promotion (July) could smooth the seasonal curve.
+
+### RFM Segmentation
+- **Intervene on Loyal Customers at months 24–28.** The scatter chart shows a sharp spend decline after month 25. A personalized win-back offer at this tenure milestone could push them into Champions.
+- **Protect Champions at all costs.** Their value increases with time — churn prevention for this segment has the highest ROI of any retention investment.
+- **Re-engage At Risk customers with high F/M scores.** They used to buy frequently and spend well; a "we miss you" campaign with an exclusive incentive has a strong behavioral foundation.
+
+### Churn
+- **Target the At Risk cohort before they cross 180 days.** The churn classification flips at 180 days — intervening at days 120–150 gives a 30–60 day window before a customer becomes Churned.
+- **Monitor new customers at Month 1.** Cohort retention data shows the steepest drop between M0 and M1. An onboarding email sequence post-first-purchase could significantly improve this rate.
+
+### Cohort Retention
+- **January and February cohorts retain best.** These are the highest-quality acquisition months — marketing spend on customer acquisition is most efficient in Q1.
+- **Late-year cohorts (Oct–Dec) have very thin M1 data.** Either improve post-purchase engagement for these customers, or adjust acquisition spend downward in Q4 and shift budget to retention.
+
+---
+
+## Technical Design Decisions
+
+| Decision | Choice | Rationale |
+|----------|--------|-----------|
+| RFM scoring | NTILE(5) | Creates equal-sized groups — more stable than fixed thresholds |
+| Filter strategy | Internal FILTER + YYYYMM arithmetic | `DATESBETWEEN` doesn't propagate to PostgreSQL views (no active relationship) |
+| Slicer architecture | Disconnected tables + SELECTEDVALUE() | Keeps fact tables clean; avoids model contamination |
+| Pie chart switching | Bookmarks + 2 stacked visuals | Field Parameters fail with unrelated tables in Legend bucket |
+| Cohort heatmap | DAX HTML measure | Full CSS control — no misleading Total column, clean empty cells |
+| Monthly granularity | `v_monthly_revenue` (not daily) | 366 bars per year are unreadable; monthly view is analytically sufficient |
+| Return rate | 0.72% (~1,572 returns) | Based on `unit_price` × 1 unit per return, not `line_total` |
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Data Generation | Python (Pandas, NumPy, Faker) |
+| Database | PostgreSQL 16 — `vistara_db`, schema `vistara` |
+| ORM / Driver | Npgsql (Power BI connector) |
+| Semantic Model | Power BI Desktop (Import mode) |
+| Custom Visuals | Deneb (Vega-Lite 6) · HTML Viewer |
+| DAX Patterns | SWITCH · SELECTEDVALUE · CONCATENATEX · GENERATESERIES · EDATE |
+| SQL Patterns | CTE chains · NTILE · LAG · DATE_TRUNC · AGE · Window functions |
+| Documentation | Obsidian (wiki vault) |
+
+---
+
+<div align="center">
+
+*VISTARA is a fictional brand created for educational and portfolio purposes.*  
+*All data is synthetically generated — no real customer information is used.*
+
+</div>

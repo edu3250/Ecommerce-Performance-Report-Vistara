@@ -1,0 +1,41 @@
+product_id,product_category,product_type,product_name,color,current_price
+PROD-001,Ropa Casual,Playera,Playera Básica Algodón Premium,Blanco,420
+PROD-002,Ropa Casual,Playera,Playera Manga Larga Rayada,Azul marino,490
+PROD-003,Ropa Casual,Jeans,Jeans Slim Fit Oscuro,Azul marino,1250
+PROD-004,Ropa Casual,Jeans,Jeans Relaxed Desgastado,Gris,1150
+PROD-005,Ropa Casual,Shorts,Shorts Algodón Verano,Beige,650
+PROD-006,Ropa Casual,Blusa,Blusa Fluida Estampada,Rosa palo,780
+PROD-007,Ropa Casual,Blusa,Blusa Cuello Redondo Básica,Negro,550
+PROD-008,Ropa Casual,Pantalón,Pantalón Chino Slim,Beige,950
+PROD-009,Ropa Casual,Pantalón,Pantalón Wide Leg Casual,Negro,1050
+PROD-010,Ropa Casual,Vestido,Vestido Casual Mini Flores,Verde olivo,1100
+PROD-011,Ropa Casual,Vestido,Vestido Midi Algodón Liso,Blanco,1350
+PROD-012,Ropa Casual,Shorts,Shorts Denim Bordado,Azul claro,720
+PROD-013,Ropa Deportiva,Leggings,Leggings Deportivos Compresión,Negro,890
+PROD-014,Ropa Deportiva,Playera,Playera Dry-Fit Entrenamiento,Gris,580
+PROD-015,Ropa Deportiva,Sudadera,Sudadera Canguro Deportiva,Negro,1200
+PROD-016,Ropa Deportiva,Shorts,Shorts Running Ligero,Azul marino,680
+PROD-017,Ropa Deportiva,Top,Top Deportivo Soporte Alto,Rosa palo,750
+PROD-018,Ropa Deportiva,Chamarra,Chamarra Cortaviento Deportiva,Verde olivo,1800
+PROD-019,Ropa Deportiva,Pantalón,Pantalón Jogger Fleece,Gris,950
+PROD-020,Ropa Deportiva,Calcetines,Pack 3 Calcetines Deportivos,Blanco,320
+PROD-021,Ropa de Invierno,Chamarra,Chamarra Bomber Relleno Pato,Negro,3800
+PROD-022,Ropa de Invierno,Abrigo,Abrigo Lana Mezcla Premium,Camel,4200
+PROD-023,Ropa de Invierno,Sudadera,Sudadera Polar Cuello Alto,Vino,1400
+PROD-024,Ropa de Invierno,Suéter,Suéter Punto Grueso Oversize,Beige,1600
+PROD-025,Ropa de Invierno,Suéter,Suéter Merino Cuello V,Gris,1850
+PROD-026,Ropa de Invierno,Chamarra,Chamarra Piel Sintética Premium,Negro,3200
+PROD-027,Ropa de Invierno,Bufanda,Bufanda Cachemir Suave,Rojo,680
+PROD-028,Ropa de Invierno,Guantes,Guantes Cuero Forro Polar,Café,540
+PROD-029,Ropa Formal,Camisa,Camisa Vestir Oxford Premium,Blanco,1100
+PROD-030,Ropa Formal,Camisa,Camisa Popelín Slim Fit,Azul claro,950
+PROD-031,Ropa Formal,Pantalón,Pantalón Vestir Pinzas Slim,Negro,1650
+PROD-032,Ropa Formal,Pantalón,Pantalón Vestir Pinzas Clásico,Gris,1550
+PROD-033,Ropa Formal,Saco,Saco Blazer Lana Premium,Azul marino,3200
+PROD-034,Ropa Formal,Saco,Blazer Mujer Estruado,Negro,2800
+PROD-035,Ropa Formal,Vestido,Vestido Cóctel Midi Elegante,Negro,2400
+PROD-036,Ropa Formal,Vestido,Vestido Formal Satín Noche,Vino,2900
+PROD-037,Ropa de Playa,Traje de Baño,Traje de Baño Una Pieza Estampado,Multicolor,950
+PROD-038,Ropa de Playa,Traje de Baño,Bikini Set Tropical,Amarillo,1100
+PROD-039,Ropa de Playa,Shorts,Shorts Playa Hawaiiano,Azul claro,580
+PROD-040,Ropa de Playa,Pareo,Pareo Playa Estampado,Multicolor,420

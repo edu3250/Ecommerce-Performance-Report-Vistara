@@ -1,0 +1,6 @@
+sales_outlet_id,sales_outlet_type,store_city,store_postal_code
+OUT-001,Retail,Ciudad de México,06600
+OUT-002,Retail,Monterrey,64610
+OUT-003,Retail,Guadalajara,44100
+OUT-004,Retail,Puebla,72810
+OUT-005,Warehouse,Ciudad de México,09340

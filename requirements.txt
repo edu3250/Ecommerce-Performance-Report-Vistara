@@ -1,0 +1,36 @@
+# =======================
+# Core
+# =======================
+jupyter
+ipykernel
+ipywidgets
+
+# =======================
+# Manipulación de datos
+# =======================
+numpy
+pandas
+scipy
+
+# =======================
+# Visualización
+# =======================
+matplotlib
+seaborn
+plotly
+
+# =======================
+# Machine Learning
+# =======================
+scikit-learn
+xgboost
+lightgbm
+statsmodels
+
+
+
+# =======================
+# Calidad de código
+# =======================
+black
+isort

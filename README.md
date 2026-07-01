@@ -7,22 +7,82 @@
 # Ecommerce Performance Report 
 <table align="center">
     <tr>
-      <td width="1440">
+      <td width="1470">
         <h2 align="center">Client Background</h2>
         <body>
-          <strong>Vistara</strong> VISTARA is a Mexican premium fashion e-commerce brand specializing in curated apparel and accessories for the contemporary Latin American consumer. Founded with a focus on quality craftsmanship and digital-first retail, VISTARA has grown its online presence across Mexico by combining editorial aesthetics with data-driven customer experiences.<br> With a registered customer base of over 10,000 buyers and more than 219,000 transactions processed throughout 2024, the brand operates at a scale where customer behavior patterns become both measurable and strategically actionable. <br>
-          This report covers the full 2024 fiscal year (January – December), with January 1, 2025 set as the RFM reference anchor. The analysis was commissioned to support VISTARA's growth strategy heading into 2025 — identifying where revenue is being generated, which customers are at risk of churning, and where the highest-value acquisition cohorts are coming from. <br>
-          
-Northstar metrics for this analysis:
+          <strong>Vistara</strong> VISTARA is a Mexican premium fashion e-commerce brand specializing in curated apparel and accessories for the contemporary Latin American consumer.
+            Founded with a focus on quality craftsmanship and digital-first retail, VISTARA has grown its online presence across Mexico by combining editorial aesthetics with data-driven customer experiences. <br>
+            <br> 
+            With a registered customer base of over 10,000 buyers and more than 219,000 transactions processed throughout 2024, the brand operates at a scale where customer behavior patterns become both measurable and 
+            strategically actionable. <br>
+            <br>
+            This report covers the full 2024 fiscal year (January – December), with January 1, 2025 set as the RFM reference anchor. The analysis was commissioned to support VISTARA's growth strategy heading into 2025 —
+            identifying where revenue is being generated, which customers are at risk of churning, and where the highest-value acquisition cohorts are coming from. <br>
+            <br>
+        <body>
+        <h3>Northstar metrics for this analysis:</h3>
+        <h4>
+            <ul><li>📈 Monthly net revenue trend and MoM growth</li>
+                <li>🎯 RFM customer segmentation (Recency · Frequency · Monetary)</li>
+                <li>🔄 Churn risk classification and retention rate</li>
+                <li>👥 Cohort retention — tracking customer lifetime month by month </li>
+            <ul>
+        </h4>
+        </td>
+  </tr>
+</table>
+<table align="center">
+  <tr>
+    <div width="920">
+      <h1 align="center">Executive Summary</h1>
+      <h3 align="center">BI Dashboard (2024 Period)</h3>
+      <div align="center">
+        <img width="1427" height="807" alt="image" src="https://github.com/user-attachments/assets/024bd784-b952-4a17-a8d4-935f01f3769c" />
+      </div>
+      <td width="460" valign="top">
+        <ol>
+          <li>
+            <strong>Revenue Growth and Peak Performance:</strong>
+            <ul>
+              <li>2020 was the strongest year, with sales consistently growing each quarter as a result of the COVID-19 pandemic.</li>
+              <li>Q4 2020 saw the highest revenue ($1.25M in December 2020), making it the best-performing period.</li>
+              <li>January 2021 ($1.03M) also maintained strong sales, though a downward trend started afterward.</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Declining Trend in 2022</strong>
+            <ul>
+              <li>A sales anomaly and significant decline occurred in 2022, particularly in Q4, with October ($178K), November ($208K), and December ($262K) marking the lowest revenue months.</li>
+              <li>The Q3 and Q4 revenue decline suggests a major downturn, likely caused by external market conditions, reduced consumer demand, or internal operational shifts.</li>
+            </ul>
+          </li>
+        </ol>
+      </td>
+      <td width="460" valign="top">
+        <ol start="3">
+          <li>
+            <strong>Quarterly Insights & Seasonal Trends</strong>
+            <ul>
+              <li>Q3 and Q4 of each year typically show strong performance, likely due to seasonal shopping trends and marketing efforts.</li>
+              <li>Q1 2022 started well ($704K in January), but revenue quickly dropped, signaling an overall weak performance compared to previous years.</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Key Takeaways & Recommendations</strong>
+            <ul>
+              <li>Investigate the causes of the 2022 decline (e.g., market changes, competition, internal factors).</li>
+              <li>Leverage high-performing periods (e.g., Q3 and Q4 of strong years) to refine marketing and sales strategies.</li>
+              <li>Reassess business strategy for 2023, focusing on pricing, promotions, and customer engagement to regain momentum.</li>
+            </ul>
+          </li>
+        </ol>
+      </td>
+    </div>
+  </tr>
+</table>
 
-📈 Monthly net revenue trend and MoM growth
-🎯 RFM customer segmentation (Recency · Frequency · Monetary)
-🔄 Churn risk classification and retention rate
-👥 Cohort retention — tracking customer lifetime month by month <br>
-          <br>
-          <strong>TechSphere's</strong> book of business is approaching <strong>88,000</strong> customers and possesses over <strong>108,000</strong> transactions, generating sales revenue exceeding <strong>$28 million</strong>. The available eCommerce data spans various dimensions and metrics, including sales, products, sales by regions, and the company's loyalty program. <br>
-          <br>Reporting to the Head of Operations, an in-depth analysis was conducted to evaluate <strong>TechSphere’s</strong> performance over the past several years (2019–2022). This comprehensive review provides valuable insights that internal cross-functional teams will utilize to streamline processes and enhance <strong>TechSphere’s</strong> commercial performance. The key insights and recommendations focus on the following areas:
-      </body>
+
+
 
 ---
 

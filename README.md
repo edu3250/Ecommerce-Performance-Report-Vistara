@@ -4,32 +4,25 @@
 
 <br/><br/>
 
-# Customer Intelligence Report
+# Ecommerce Performance Report 
+<table align="center">
+    <tr>
+      <td width="1440">
+        <h2 align="center">Client Background</h2>
+        <body>
+          <strong>Vistara</strong> VISTARA is a Mexican premium fashion e-commerce brand specializing in curated apparel and accessories for the contemporary Latin American consumer. Founded with a focus on quality craftsmanship and digital-first retail, VISTARA has grown its online presence across Mexico by combining editorial aesthetics with data-driven customer experiences.<br> With a registered customer base of over 10,000 buyers and more than 219,000 transactions processed throughout 2024, the brand operates at a scale where customer behavior patterns become both measurable and strategically actionable. <br>
+          This report covers the full 2024 fiscal year (January – December), with January 1, 2025 set as the RFM reference anchor. The analysis was commissioned to support VISTARA's growth strategy heading into 2025 — identifying where revenue is being generated, which customers are at risk of churning, and where the highest-value acquisition cohorts are coming from. <br>
+          
+Northstar metrics for this analysis:
 
-### Python · PostgreSQL · Power BI · Deneb
-
-*A full-stack data project: synthetic data generation → relational database → analytical SQL views → interactive Power BI dashboard*
-
-</div>
-
----
-
-## Client Background
-
-**VISTARA** is a fictional Mexican premium fashion e-commerce brand built as the analytical backbone of a real-world data project. The goal was to simulate a production-grade analytics pipeline from raw data generation to executive-ready dashboards.
-
-- **Market:** Premium apparel & accessories, Mexico
-- **Data period:** January 2024 – December 2024
-- **Customer base:** 10,000 registered customers across 5 behavioral tiers
-- **Transaction volume:** ~219,000 sales receipts
-- **Reference date:** January 1, 2025 (RFM anchor point)
-
-**Northstar metrics for this analysis:**
-
-- 📈 Monthly net revenue trend and MoM growth
-- 🎯 RFM customer segmentation (Recency · Frequency · Monetary)
-- 🔄 Churn risk classification and retention rate
-- 👥 Cohort retention — tracking customer lifetime month by month
+📈 Monthly net revenue trend and MoM growth
+🎯 RFM customer segmentation (Recency · Frequency · Monetary)
+🔄 Churn risk classification and retention rate
+👥 Cohort retention — tracking customer lifetime month by month <br>
+          <br>
+          <strong>TechSphere's</strong> book of business is approaching <strong>88,000</strong> customers and possesses over <strong>108,000</strong> transactions, generating sales revenue exceeding <strong>$28 million</strong>. The available eCommerce data spans various dimensions and metrics, including sales, products, sales by regions, and the company's loyalty program. <br>
+          <br>Reporting to the Head of Operations, an in-depth analysis was conducted to evaluate <strong>TechSphere’s</strong> performance over the past several years (2019–2022). This comprehensive review provides valuable insights that internal cross-functional teams will utilize to streamline processes and enhance <strong>TechSphere’s</strong> commercial performance. The key insights and recommendations focus on the following areas:
+      </body>
 
 ---
 

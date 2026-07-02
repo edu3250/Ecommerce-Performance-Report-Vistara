@@ -10,7 +10,7 @@
       <td width="1470">
         <h2 align="center">Client Background</h2>
         <body>
-          <strong>Vistara</strong> VISTARA is a Mexican premium fashion e-commerce brand specializing in curated apparel and accessories for the contemporary Latin American consumer.
+          <strong>VISTARA/strong> is a Mexican premium fashion e-commerce brand specializing in curated apparel and accessories for the contemporary Latin American consumer.
             Founded with a focus on quality craftsmanship and digital-first retail, VISTARA has grown its online presence across Mexico by combining editorial aesthetics with data-driven customer experiences. <br>
             <br> 
             With a registered customer base of over 10,000 buyers and more than 219,000 transactions processed throughout 2024, the brand operates at a scale where customer behavior patterns become both measurable and 
@@ -44,16 +44,17 @@
           <li>
             <strong>Revenue Growth and Peak Performance:</strong>
             <ul>
-              <li>2020 was the strongest year, with sales consistently growing each quarter as a result of the COVID-19 pandemic.</li>
-              <li>Q4 2020 saw the highest revenue ($1.25M in December 2020), making it the best-performing period.</li>
-              <li>January 2021 ($1.03M) also maintained strong sales, though a downward trend started afterward.</li>
+              <li>Q4 2024 was the strongest period, with december recording the highest montlhy revenue of the year at approximately $44M.</li>
+              <li>Q1 saw the highest volume of new customer acquisition. Revenue grew progressively through the year as repeat purchases accumulated, particularly among Champions and Loyal customers.</li>
+              <li>ssss</li>
             </ul>
           </li>
           <li>
-            <strong>Declining Trend in 2022</strong>
+            <strong>Where Revenue Comes From</strong>
             <ul>
-              <li>A sales anomaly and significant decline occurred in 2022, particularly in Q4, with October ($178K), November ($208K), and December ($262K) marking the lowest revenue months.</li>
-              <li>The Q3 and Q4 revenue decline suggests a major downturn, likely caused by external market conditions, reduced consumer demand, or internal operational shifts.</li>
+              <li>A small group of customers. 20% of the customers (champions) generate 76% of total revenue.The remaining customer base contributes meaningfully in Q1 and Q2 but shows
+                  declining activity through the second half of the year.</li>
+              <li>ssss.</li>
             </ul>
           </li>
         </ol>

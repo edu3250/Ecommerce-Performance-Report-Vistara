@@ -4,32 +4,86 @@
 
 <br/><br/>
 
-# Customer Intelligence Report
+# Ecommerce Performance Report 
+<table align="center">
+    <tr>
+      <td width="1470">
+        <h2 align="center">Client Background</h2>
+        <body>
+          <strong>VISTARA/strong> is a Mexican premium fashion e-commerce brand specializing in curated apparel and accessories for the contemporary Latin American consumer.
+            Founded with a focus on quality craftsmanship and digital-first retail, VISTARA has grown its online presence across Mexico by combining editorial aesthetics with data-driven customer experiences. <br>
+            <br> 
+            With a registered customer base of over 10,000 buyers and more than 219,000 transactions processed throughout 2024, the brand operates at a scale where customer behavior patterns become both measurable and 
+            strategically actionable. <br>
+            <br>
+            This report covers the full 2024 fiscal year (January – December), with January 1, 2025 set as the RFM reference anchor. The analysis was commissioned to support VISTARA's growth strategy heading into 2025 —
+            identifying where revenue is being generated, which customers are at risk of churning, and where the highest-value acquisition cohorts are coming from. <br>
+            <br>
+        <body>
+        <h3>Northstar metrics for this analysis:</h3>
+        <h4>
+            <ul><li>📈 Monthly net revenue trend and MoM growth</li>
+                <li>🎯 RFM customer segmentation (Recency · Frequency · Monetary)</li>
+                <li>🔄 Churn risk classification and retention rate</li>
+                <li>👥 Cohort retention — tracking customer lifetime month by month </li>
+            <ul>
+        </h4>
+        </td>
+  </tr>
+</table>
+<table align="center">
+  <tr>
+    <div width="920">
+      <h1 align="center">Executive Summary</h1>
+      <h3 align="center">BI Dashboard (2024 Period)</h3>
+      <div align="center">
+        <img width="1427" height="807" alt="image" src="https://github.com/user-attachments/assets/024bd784-b952-4a17-a8d4-935f01f3769c" />
+      </div>
+      <td width="460" valign="top">
+        <ol>
+          <li>
+            <strong>Revenue Growth and Peak Performance:</strong>
+            <ul>
+              <li>Q4 2024 was the strongest period, with december recording the highest montlhy revenue of the year at approximately $44M.</li>
+              <li>Q1 saw the highest volume of new customer acquisition. Revenue grew progressively through the year as repeat purchases accumulated, particularly among Champions and Loyal customers.</li>
+              <li>ssss</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Where Revenue Comes From</strong>
+            <ul>
+              <li>A small group of customers. 20% of the customers (champions) generate 76% of total revenue.The remaining customer base contributes meaningfully in Q1 and Q2 but shows
+                  declining activity through the second half of the year.</li>
+              <li>ssss.</li>
+            </ul>
+          </li>
+        </ol>
+      </td>
+      <td width="460" valign="top">
+        <ol start="3">
+          <li>
+            <strong>Quarterly Insights & Seasonal Trends</strong>
+            <ul>
+              <li>Q3 and Q4 of each year typically show strong performance, likely due to seasonal shopping trends and marketing efforts.</li>
+              <li>Q1 2022 started well ($704K in January), but revenue quickly dropped, signaling an overall weak performance compared to previous years.</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Key Takeaways & Recommendations</strong>
+            <ul>
+              <li>Investigate the causes of the 2022 decline (e.g., market changes, competition, internal factors).</li>
+              <li>Leverage high-performing periods (e.g., Q3 and Q4 of strong years) to refine marketing and sales strategies.</li>
+              <li>Reassess business strategy for 2023, focusing on pricing, promotions, and customer engagement to regain momentum.</li>
+            </ul>
+          </li>
+        </ol>
+      </td>
+    </div>
+  </tr>
+</table>
 
-### Python · PostgreSQL · Power BI · Deneb
 
-*A full-stack data project: synthetic data generation → relational database → analytical SQL views → interactive Power BI dashboard*
 
-</div>
-
----
-
-## Client Background
-
-**VISTARA** is a fictional Mexican premium fashion e-commerce brand built as the analytical backbone of a real-world data project. The goal was to simulate a production-grade analytics pipeline from raw data generation to executive-ready dashboards.
-
-- **Market:** Premium apparel & accessories, Mexico
-- **Data period:** January 2024 – December 2024
-- **Customer base:** 10,000 registered customers across 5 behavioral tiers
-- **Transaction volume:** ~219,000 sales receipts
-- **Reference date:** January 1, 2025 (RFM anchor point)
-
-**Northstar metrics for this analysis:**
-
-- 📈 Monthly net revenue trend and MoM growth
-- 🎯 RFM customer segmentation (Recency · Frequency · Monetary)
-- 🔄 Churn risk classification and retention rate
-- 👥 Cohort retention — tracking customer lifetime month by month
 
 ---
 

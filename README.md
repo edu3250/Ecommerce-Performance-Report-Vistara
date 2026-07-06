@@ -10,7 +10,7 @@
       <td width="1470">
         <h2 align="center">Client Background</h2>
         <body>
-          <strong>VISTARA/strong> is a Mexican premium fashion e-commerce brand specializing in curated apparel and accessories for the contemporary Latin American consumer.
+          <strong>VISTARA</strong> is a Mexican premium fashion e-commerce brand specializing in curated apparel and accessories for the contemporary Latin American consumer.
             Founded with a focus on quality craftsmanship and digital-first retail, VISTARA has grown its online presence across Mexico by combining editorial aesthetics with data-driven customer experiences. <br>
             <br> 
             With a registered customer base of over 10,000 buyers and more than 219,000 transactions processed throughout 2024, the brand operates at a scale where customer behavior patterns become both measurable and 
@@ -82,7 +82,13 @@
   </tr>
 </table>
 
+<h2 align="center">Dataset Structure and ERD (Entity relationship diagram)</h2>
+<body>The database structure as seen below consists of eight tables: orders, customers, products, dates, order details, returns, inventory and receipts with a total row count of 10,000 records.</body>
+<div align="center">
+  <img src="assets/erd.svg" alt="Vistara ERD Diagram · Mexico" width="900"/>
 
+</div>
+<h1 align="center">Insights Deep-Dive</h1>
 
 
 ---

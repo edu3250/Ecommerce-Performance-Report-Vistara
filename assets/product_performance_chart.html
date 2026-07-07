@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Performance by Category — VISTARA 2024</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: transparent;
+      padding: 1rem;
+    }
+    .legend {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 20px;
+      margin: 0 0 14px;
+      font-size: 12px;
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .legend-swatch {
+      width: 11px;
+      height: 11px;
+      border-radius: 2px;
+      flex-shrink: 0;
+    }
+    .legend-name  { color: #52514e; }
+    .legend-pct   { font-weight: 500; }
+    .chart-title  { text-align: center; font-size: 16px; font-weight: 500; color: #0b0b0b; margin: 0 0 12px; }
+    .chart-footer { font-size: 11px; color: #898781; margin: 7px 0 0; text-align: right; }
+    .chart-wrap   { position: relative; width: 100%; height: 320px; }
+
+    @media (prefers-color-scheme: dark) {
+      .legend-name  { color: #c3c2b7; }
+      .chart-title  { color: #ffffff; }
+      .chart-footer { color: #898781; }
+    }
+  </style>
+</head>
+<body>
+
+  <p class="chart-title">Product Performance by Category</p>
+
+  <div class="legend">
+    <span class="legend-item">
+      <span class="legend-swatch" style="background:#2a78d6;"></span>
+      <span class="legend-name">Winter Wear</span>
+      <span class="legend-pct" style="color:#2a78d6;">31.4%</span>
+    </span>
+    <span class="legend-item">
+      <span class="legend-swatch" style="background:#1baf7a;"></span>
+      <span class="legend-name">Formal Wear</span>
+      <span class="legend-pct" style="color:#1baf7a;">30.5%</span>
+    </span>
+    <span class="legend-item">
+      <span class="legend-swatch" style="background:#eda100;"></span>
+      <span class="legend-name">Casual Wear</span>
+      <span class="legend-pct" style="color:#eda100;">19.3%</span>
+    </span>
+    <span class="legend-item">
+      <span class="legend-swatch" style="background:#008300;"></span>
+      <span class="legend-name">Sportswear</span>
+      <span class="legend-pct" style="color:#008300;">13.2%</span>
+    </span>
+    <span class="legend-item">
+      <span class="legend-swatch" style="background:#4a3aa7;"></span>
+      <span class="legend-name">Beachwear</span>
+      <span class="legend-pct" style="color:#4a3aa7;">5.6%</span>
+    </span>
+  </div>
+
+  <div class="chart-wrap">
+    <canvas id="ppChart"
+      role="img"
+      aria-label="Line chart of monthly net revenue Jan–Dec 2024 by product category. Winter Wear leads at 31.4% annual share. All categories peak in December and reach their low in February.">
+      Monthly net revenue per category Jan–Dec 2024. All categories peak in December.
+    </canvas>
+  </div>
+
+  <p class="chart-footer">Values in millions of MXN</p>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+  <script>
+    (function () {
+      var isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      var gridCol = isDark ? '#2c2c2a' : '#e8e7e2';
+      var tickCol = '#898781';
+      var axisCol = isDark ? '#383835' : '#ccc';
+
+      var categories = [
+        { label: 'Winter Wear', color: '#2a78d6', dash: [],
+          data: [10.08, 9.10, 10.12, 9.54, 10.67, 9.88, 10.08, 9.91, 9.80, 9.77, 10.85, 13.59] },
+        { label: 'Formal Wear', color: '#1baf7a', dash: [9, 5],
+          data: [10.22, 8.88, 9.63, 9.36, 10.26, 9.39, 9.47, 9.77, 9.26, 9.55, 10.59, 13.43] },
+        { label: 'Casual Wear', color: '#eda100', dash: [2, 4],
+          data: [6.30, 5.78, 6.08, 5.95, 6.55, 5.94, 6.15, 6.07, 6.00, 5.95, 6.57, 8.37] },
+        { label: 'Sportswear',  color: '#008300', dash: [12, 4, 3, 4],
+          data: [4.25, 3.89, 4.31, 4.09, 4.52, 4.11, 4.16, 4.16, 3.96, 4.26, 4.50, 5.57] },
+        { label: 'Beachwear',   color: '#4a3aa7', dash: [1, 4],
+          data: [1.80, 1.66, 1.86, 1.75, 1.84, 1.72, 1.75, 1.84, 1.71, 1.81, 1.91, 2.37] }
+      ];
+
+      new Chart(document.getElementById('ppChart'), {
+        type: 'line',
+        data: {
+          labels: ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
+          datasets: categories.map(function (s) {
+            return {
+              label: s.label,
+              data: s.data,
+              borderColor: s.color,
+              borderDash: s.dash,
+              borderWidth: 2,
+              pointRadius: 0,
+              pointHoverRadius: 4,
+              pointHoverBackgroundColor: s.color,
+              tension: 0.4,
+              fill: false
+            };
+          })
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          interaction: { mode: 'index', intersect: false },
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              backgroundColor: isDark ? '#1a1a19' : '#ffffff',
+              borderColor: isDark ? '#383835' : '#e1e0d9',
+              borderWidth: 1,
+              titleColor: isDark ? '#ffffff' : '#0b0b0b',
+              bodyColor: isDark ? '#c3c2b7' : '#52514e',
+              padding: 10,
+              callbacks: {
+                label: function (ctx) {
+                  return '  ' + ctx.dataset.label + ':  $' + ctx.parsed.y.toFixed(1) + 'M';
+                }
+              }
+            }
+          },
+          scales: {
+            x: {
+              ticks: { color: tickCol, font: { size: 11 }, autoSkip: false, maxRotation: 0 },
+              grid: { display: false },
+              border: { color: axisCol }
+            },
+            y: {
+              min: 0,
+              max: 16,
+              ticks: {
+                color: tickCol,
+                font: { size: 11 },
+                stepSize: 4,
+                callback: function (v) { return '$' + v + 'M'; }
+              },
+              grid: { color: gridCol, lineWidth: 1 },
+              border: { display: false }
+            }
+          }
+        },
+        plugins: [{
+          id: 'transparentBg',
+          beforeDraw: function (chart) {
+            var ctx = chart.canvas.getContext('2d');
+            ctx.save();
+            ctx.globalCompositeOperation = 'destination-over';
+            ctx.clearRect(0, 0, chart.width, chart.height);
+            ctx.restore();
+          }
+        }]
+      });
+    })();
+  </script>
+</body>
+</html>

@@ -111,11 +111,14 @@
       <ol>
         <li>December Peak — Q4 Concentration Defines the Annual Revenue Profile <ul>
             <li>December recorded the highest monthly revenue of the year (~$44M). </li>
-            <li>December 2022 Sales Revenue was $262K (Previous years: $458K–$1.25M). This represents a <strong>~70-80% drop</strong> from Q4 2021 and an even sharper decline compared to Q4 2020. </li>
+            <li>Confirming Q4 as the primary revenue driver. This concentration reflects the Champions segment's sustained activity through December, a tier that carries 
+                a 50x purchase weight relative to baseline buyers. </li>
           </ul>
         </li>
-        <li>Post-Pandemic Sales Normalization (2020-2022 Trends) <ul>
-            <li>2020 Sales Surge: The pandemic led to a significant boost in eCommerce sales, with Q2-Q4 2020 seeing a rapid increase (e.g., <strong>Q4 2020 was nearly double Q4 2019</strong>). </li>
+        <li>Mid-Year Stability Masks a Structural Shift <ul>
+            <li>From February through October, monthly revenue holds relatively stable in the $30–34M range. As lower-value tiers exit their active purchase windows the total order 
+                count declines while per-order value rises. Revenue remains stable not because of consistent volume, but because higher-value segments progressively absorb a larger 
+                share of transactions. </li>
             <li>2021 Slight Slowdown: Sales remained high but started stabilizing, showing a decline from peak pandemic levels.</li>
             <li>2022 Major Decline: A <strong>consistent drop in sales across all quarters</strong> suggests a post-pandemic correction, with inflation, lower consumer spending, or increased competition. </li>
           </ul>

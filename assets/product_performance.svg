@@ -1,0 +1,90 @@
+<svg viewBox="0 0 880 390" xmlns="http://www.w3.org/2000/svg"
+     font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
+     role="img" aria-label="Product Performance by Category — monthly net revenue Jan–Dec 2024">
+  <title>Product Performance by Category</title>
+  <desc>Monthly net revenue in MXN millions for 5 product categories Jan–Dec 2024. All categories peak in December. Winter Wear leads at 31.4% annual share.</desc>
+
+  <!-- Title -->
+  <text x="440" y="24" text-anchor="middle" font-size="15" font-weight="500" fill="#0b0b0b">Product Performance by Category</text>
+
+  <!-- Legend -->
+  <rect x="20"  y="42" width="11" height="11" rx="2" fill="#2a78d6"/>
+  <text x="36"  y="52" font-size="11" fill="#52514e">Winter Wear</text>
+  <text x="112" y="52" font-size="11" font-weight="500" fill="#2a78d6">31.4%</text>
+
+  <rect x="172" y="42" width="11" height="11" rx="2" fill="#1baf7a"/>
+  <text x="188" y="52" font-size="11" fill="#52514e">Formal Wear</text>
+  <text x="265" y="52" font-size="11" font-weight="500" fill="#1baf7a">30.5%</text>
+
+  <rect x="325" y="42" width="11" height="11" rx="2" fill="#eda100"/>
+  <text x="341" y="52" font-size="11" fill="#52514e">Casual Wear</text>
+  <text x="416" y="52" font-size="11" font-weight="500" fill="#eda100">19.3%</text>
+
+  <rect x="474" y="42" width="11" height="11" rx="2" fill="#008300"/>
+  <text x="490" y="52" font-size="11" fill="#52514e">Sportswear</text>
+  <text x="554" y="52" font-size="11" font-weight="500" fill="#008300">13.2%</text>
+
+  <rect x="612" y="42" width="11" height="11" rx="2" fill="#4a3aa7"/>
+  <text x="628" y="52" font-size="11" fill="#52514e">Beachwear</text>
+  <text x="689" y="52" font-size="11" font-weight="500" fill="#4a3aa7">5.6%</text>
+
+  <!-- Gridlines — $16M=$80 $12M=$146 $8M=$213 $4M=$279 $0M=$345 -->
+  <line x1="65" y1="80"  x2="860" y2="80"  stroke="#e8e7e2" stroke-width="1"/>
+  <line x1="65" y1="146" x2="860" y2="146" stroke="#e8e7e2" stroke-width="1"/>
+  <line x1="65" y1="213" x2="860" y2="213" stroke="#e8e7e2" stroke-width="1"/>
+  <line x1="65" y1="279" x2="860" y2="279" stroke="#e8e7e2" stroke-width="1"/>
+  <line x1="65" y1="345" x2="860" y2="345" stroke="#cccccc" stroke-width="1"/>
+
+  <!-- Y axis labels -->
+  <text x="58" y="84"  text-anchor="end" font-size="11" fill="#898781">$16M</text>
+  <text x="58" y="150" text-anchor="end" font-size="11" fill="#898781">$12M</text>
+  <text x="58" y="217" text-anchor="end" font-size="11" fill="#898781">$8M</text>
+  <text x="58" y="283" text-anchor="end" font-size="11" fill="#898781">$4M</text>
+  <text x="58" y="349" text-anchor="end" font-size="11" fill="#898781">$0M</text>
+
+  <!-- X axis labels (x positions: 65 137 210 282 354 426 499 571 643 716 788 860) -->
+  <text x="65"  y="362" text-anchor="middle" font-size="11" fill="#898781">Jan</text>
+  <text x="137" y="362" text-anchor="middle" font-size="11" fill="#898781">Feb</text>
+  <text x="210" y="362" text-anchor="middle" font-size="11" fill="#898781">Mar</text>
+  <text x="282" y="362" text-anchor="middle" font-size="11" fill="#898781">Apr</text>
+  <text x="354" y="362" text-anchor="middle" font-size="11" fill="#898781">May</text>
+  <text x="426" y="362" text-anchor="middle" font-size="11" fill="#898781">Jun</text>
+  <text x="499" y="362" text-anchor="middle" font-size="11" fill="#898781">Jul</text>
+  <text x="571" y="362" text-anchor="middle" font-size="11" fill="#898781">Aug</text>
+  <text x="643" y="362" text-anchor="middle" font-size="11" fill="#898781">Sep</text>
+  <text x="716" y="362" text-anchor="middle" font-size="11" fill="#898781">Oct</text>
+  <text x="788" y="362" text-anchor="middle" font-size="11" fill="#898781">Nov</text>
+  <text x="860" y="362" text-anchor="middle" font-size="11" fill="#898781">Dec</text>
+
+  <!-- Winter Wear — solid #2a78d6 -->
+  <polyline
+    points="65,178 137,194 210,177 282,187 354,168 426,181 499,178 571,181 643,183 716,183 788,165 860,120"
+    fill="none" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Formal Wear — dashed #1baf7a -->
+  <polyline
+    points="65,176 137,198 210,186 282,190 354,175 426,190 499,188 571,183 643,192 716,187 788,170 860,123"
+    fill="none" stroke="#1baf7a" stroke-width="2" stroke-dasharray="9,5"
+    stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Casual Wear — dotted #eda100 -->
+  <polyline
+    points="65,241 137,249 210,244 282,247 354,237 426,247 499,243 571,245 643,246 716,247 788,236 860,206"
+    fill="none" stroke="#eda100" stroke-width="2" stroke-dasharray="2,4"
+    stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Sportswear — dash-dot #008300 -->
+  <polyline
+    points="65,275 137,281 210,274 282,277 354,270 426,277 499,276 571,276 643,279 716,275 788,271 860,253"
+    fill="none" stroke="#008300" stroke-width="2" stroke-dasharray="12,4,3,4"
+    stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Beachwear — fine dots #4a3aa7 -->
+  <polyline
+    points="65,315 137,318 210,314 282,316 354,315 426,317 499,316 571,315 643,317 716,315 788,313 860,306"
+    fill="none" stroke="#4a3aa7" stroke-width="2" stroke-dasharray="1,4"
+    stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Footer -->
+  <text x="860" y="384" text-anchor="end" font-size="10" fill="#898781">Values in millions of MXN</text>
+</svg>

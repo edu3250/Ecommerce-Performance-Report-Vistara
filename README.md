@@ -209,10 +209,32 @@
     </td>
   </tr>
 </table>
-
-
 </table>
 
+## Cohort Analysis
+<div align="center">
+  <img src="assets/cohort_heatmap.svg" alt="Cohort Retention Heatmap VISTARA 2024" width="100%">
+</div>
+<table align="center">
+  <h1 align="center">Cohort Analysis</h1>
+  <tr>
+    <td width="500">
+       <div valign="top" align="center">
+      <h3></h3>
+      <img src="assets/cohort_heatmap.svg" alt="Cohort Retention Heatmap VISTARA 2024" width="500%">
+    </div>
+    </td>
+    <td valign="top" width="500">
+      <ul>
+        <li>Laptops have the lowest retention rate, with the highest return rate year over year being the ThinkPad Laptop, followed by the MacBook Air Laptop.</li>
+        <li>Coincidentally, these two items have the highest AOV and are TechSphere's most expensive products.</li>
+        <li>The least returned product is the Bose SoundSport Headphones, with a return rate of 0%, followed by the Samsung Charging Cable Pack, with an average return rate of 2%.</li>
+        <li>However, the Bose SoundSport Headphones are the least frequently purchased product, and the Samsung Charging Cable Pack ranks in the bottom half of purchase orders.</li>
+        <li>For 2022, there were no recorded returns for any product.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 ## Executive Summary
 
 <div align="center">

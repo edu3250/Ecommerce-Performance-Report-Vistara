@@ -1,0 +1,245 @@
+<svg viewBox="0 0 558 426" xmlns="http://www.w3.org/2000/svg"
+     font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
+     role="img" aria-label="Cohort retention heatmap VISTARA 2024. Real data from vistara.v_cohort_retention.">
+  <title>Cohort Retention Heatmap — VISTARA 2024</title>
+  <desc>Monthly cohort retention — real data from vistara.v_cohort_retention. Jan-2024 cohort (n=4,382) retains ~57–63% through M6, then drops below 40%. Smaller cohorts show rapid drop to red (&lt;20%) by M3-M5.</desc>
+
+  <!-- ─── HEADER ─────────────────────────────────────────────── -->
+  <rect x="0" y="0" width="558" height="30" fill="#1C2B36"/>
+  <text x="38"  y="19" text-anchor="middle" font-size="9" font-weight="600" fill="#FFFFFF">Cohort</text>
+  <text x="96"  y="19" text-anchor="middle" font-size="9" font-weight="600" fill="#FFFFFF">M0</text>
+  <text x="136" y="19" text-anchor="middle" font-size="9" font-weight="600" fill="#FFFFFF">M1</text>
+  <text x="176" y="19" text-anchor="middle" font-size="9" font-weight="600" fill="#FFFFFF">M2</text>
+  <text x="216" y="19" text-anchor="middle" font-size="9" font-weight="600" fill="#FFFFFF">M3</text>
+  <text x="256" y="19" text-anchor="middle" font-size="9" font-weight="600" fill="#FFFFFF">M4</text>
+  <text x="296" y="19" text-anchor="middle" font-size="9" font-weight="600" fill="#FFFFFF">M5</text>
+  <text x="336" y="19" text-anchor="middle" font-size="9" font-weight="600" fill="#FFFFFF">M6</text>
+  <text x="376" y="19" text-anchor="middle" font-size="9" font-weight="600" fill="#FFFFFF">M7</text>
+  <text x="416" y="19" text-anchor="middle" font-size="9" font-weight="600" fill="#FFFFFF">M8</text>
+  <text x="456" y="19" text-anchor="middle" font-size="9" font-weight="600" fill="#FFFFFF">M9</text>
+  <text x="496" y="19" text-anchor="middle" font-size="9" font-weight="600" fill="#FFFFFF">M10</text>
+  <text x="536" y="19" text-anchor="middle" font-size="9" font-weight="600" fill="#FFFFFF">M11</text>
+
+  <!-- ─── 2024-01  n=4,382  ─────────────────────────────────── -->
+  <!-- M0=100.0 M1=59.3 M2=63.4 M3=60.4 M4=58.9 M5=57.2 M6=50.7 M7=35.8 M8=36.0 M9=36.0 M10=15.8 M11=16.7 -->
+  <rect x="0"   y="30" width="76" height="30" fill="#F8F9FA" stroke="#EBEBEB" stroke-width="0.5"/>
+  <text x="38"  y="41" text-anchor="middle" font-size="9" font-weight="700" fill="#1C2B36">2024-01</text>
+  <text x="38"  y="52" text-anchor="middle" font-size="8" fill="#8A9BB0">n=4,382</text>
+  <rect x="76"  y="30" width="40" height="30" fill="#2D6A4F" stroke="#EBEBEB" stroke-width="0.5"/><text x="96"  y="49" text-anchor="middle" font-size="8.5" fill="#1C2B36">100%</text>
+  <rect x="116" y="30" width="40" height="30" fill="#E9C46A" stroke="#EBEBEB" stroke-width="0.5"/><text x="136" y="49" text-anchor="middle" font-size="8.5" fill="#1C2B36">59.3%</text>
+  <rect x="156" y="30" width="40" height="30" fill="#52B788" stroke="#EBEBEB" stroke-width="0.5"/><text x="176" y="49" text-anchor="middle" font-size="8.5" fill="#1C2B36">63.4%</text>
+  <rect x="196" y="30" width="40" height="30" fill="#52B788" stroke="#EBEBEB" stroke-width="0.5"/><text x="216" y="49" text-anchor="middle" font-size="8.5" fill="#1C2B36">60.4%</text>
+  <rect x="236" y="30" width="40" height="30" fill="#E9C46A" stroke="#EBEBEB" stroke-width="0.5"/><text x="256" y="49" text-anchor="middle" font-size="8.5" fill="#1C2B36">58.9%</text>
+  <rect x="276" y="30" width="40" height="30" fill="#E9C46A" stroke="#EBEBEB" stroke-width="0.5"/><text x="296" y="49" text-anchor="middle" font-size="8.5" fill="#1C2B36">57.2%</text>
+  <rect x="316" y="30" width="40" height="30" fill="#E9C46A" stroke="#EBEBEB" stroke-width="0.5"/><text x="336" y="49" text-anchor="middle" font-size="8.5" fill="#1C2B36">50.7%</text>
+  <rect x="356" y="30" width="40" height="30" fill="#E76F51" stroke="#EBEBEB" stroke-width="0.5"/><text x="376" y="49" text-anchor="middle" font-size="8.5" fill="#FFFFFF">35.8%</text>
+  <rect x="396" y="30" width="40" height="30" fill="#E76F51" stroke="#EBEBEB" stroke-width="0.5"/><text x="416" y="49" text-anchor="middle" font-size="8.5" fill="#FFFFFF">36.0%</text>
+  <rect x="436" y="30" width="40" height="30" fill="#E76F51" stroke="#EBEBEB" stroke-width="0.5"/><text x="456" y="49" text-anchor="middle" font-size="8.5" fill="#FFFFFF">36.0%</text>
+  <rect x="476" y="30" width="40" height="30" fill="#C05B5B" stroke="#EBEBEB" stroke-width="0.5"/><text x="496" y="49" text-anchor="middle" font-size="8.5" fill="#FFFFFF">15.8%</text>
+  <rect x="516" y="30" width="40" height="30" fill="#C05B5B" stroke="#EBEBEB" stroke-width="0.5"/><text x="536" y="49" text-anchor="middle" font-size="8.5" fill="#FFFFFF">16.7%</text>
+
+  <!-- ─── 2024-02  n=1,224  ─────────────────────────────────── -->
+  <!-- M0=100.0 M1=37.0 M2=36.6 M3=27.9 M4=28.7 M5=31.3 M6=10.3 M7=9.0 M8=9.1 M9=4.6 M10=5.1 M11=— -->
+  <rect x="0"   y="60" width="76" height="30" fill="#F8F9FA" stroke="#EBEBEB" stroke-width="0.5"/>
+  <text x="38"  y="71" text-anchor="middle" font-size="9" font-weight="700" fill="#1C2B36">2024-02</text>
+  <text x="38"  y="82" text-anchor="middle" font-size="8" fill="#8A9BB0">n=1,224</text>
+  <rect x="76"  y="60" width="40" height="30" fill="#2D6A4F" stroke="#EBEBEB" stroke-width="0.5"/><text x="96"  y="79" text-anchor="middle" font-size="8.5" fill="#1C2B36">100%</text>
+  <rect x="116" y="60" width="40" height="30" fill="#E76F51" stroke="#EBEBEB" stroke-width="0.5"/><text x="136" y="79" text-anchor="middle" font-size="8.5" fill="#FFFFFF">37.0%</text>
+  <rect x="156" y="60" width="40" height="30" fill="#E76F51" stroke="#EBEBEB" stroke-width="0.5"/><text x="176" y="79" text-anchor="middle" font-size="8.5" fill="#FFFFFF">36.6%</text>
+  <rect x="196" y="60" width="40" height="30" fill="#E76F51" stroke="#EBEBEB" stroke-width="0.5"/><text x="216" y="79" text-anchor="middle" font-size="8.5" fill="#FFFFFF">27.9%</text>
+  <rect x="236" y="60" width="40" height="30" fill="#E76F51" stroke="#EBEBEB" stroke-width="0.5"/><text x="256" y="79" text-anchor="middle" font-size="8.5" fill="#FFFFFF">28.7%</text>
+  <rect x="276" y="60" width="40" height="30" fill="#E76F51" stroke="#EBEBEB" stroke-width="0.5"/><text x="296" y="79" text-anchor="middle" font-size="8.5" fill="#FFFFFF">31.3%</text>
+  <rect x="316" y="60" width="40" height="30" fill="#C05B5B" stroke="#EBEBEB" stroke-width="0.5"/><text x="336" y="79" text-anchor="middle" font-size="8.5" fill="#FFFFFF">10.3%</text>
+  <rect x="356" y="60" width="40" height="30" fill="#C05B5B" stroke="#EBEBEB" stroke-width="0.5"/><text x="376" y="79" text-anchor="middle" font-size="8.5" fill="#FFFFFF">9.0%</text>
+  <rect x="396" y="60" width="40" height="30" fill="#C05B5B" stroke="#EBEBEB" stroke-width="0.5"/><text x="416" y="79" text-anchor="middle" font-size="8.5" fill="#FFFFFF">9.1%</text>
+  <rect x="436" y="60" width="40" height="30" fill="#C05B5B" stroke="#EBEBEB" stroke-width="0.5"/><text x="456" y="79" text-anchor="middle" font-size="8.5" fill="#FFFFFF">4.6%</text>
+  <rect x="476" y="60" width="40" height="30" fill="#C05B5B" stroke="#EBEBEB" stroke-width="0.5"/><text x="496" y="79" text-anchor="middle" font-size="8.5" fill="#FFFFFF">5.1%</text>
+  <rect x="516" y="60" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="536" y="79" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+
+  <!-- ─── 2024-03  n=721  ───────────────────────────────────── -->
+  <!-- M0=100.0 M1=38.4 M2=25.8 M3=24.8 M4=27.5 M5=4.4 M6=4.6 M7=4.9 M8=4.3 M9=3.3 M10=— M11=— -->
+  <rect x="0"   y="90" width="76" height="30" fill="#F8F9FA" stroke="#EBEBEB" stroke-width="0.5"/>
+  <text x="38"  y="101" text-anchor="middle" font-size="9" font-weight="700" fill="#1C2B36">2024-03</text>
+  <text x="38"  y="112" text-anchor="middle" font-size="8" fill="#8A9BB0">n=721</text>
+  <rect x="76"  y="90" width="40" height="30" fill="#2D6A4F" stroke="#EBEBEB" stroke-width="0.5"/><text x="96"  y="109" text-anchor="middle" font-size="8.5" fill="#1C2B36">100%</text>
+  <rect x="116" y="90" width="40" height="30" fill="#E76F51" stroke="#EBEBEB" stroke-width="0.5"/><text x="136" y="109" text-anchor="middle" font-size="8.5" fill="#FFFFFF">38.4%</text>
+  <rect x="156" y="90" width="40" height="30" fill="#E76F51" stroke="#EBEBEB" stroke-width="0.5"/><text x="176" y="109" text-anchor="middle" font-size="8.5" fill="#FFFFFF">25.8%</text>
+  <rect x="196" y="90" width="40" height="30" fill="#E76F51" stroke="#EBEBEB" stroke-width="0.5"/><text x="216" y="109" text-anchor="middle" font-size="8.5" fill="#FFFFFF">24.8%</text>
+  <rect x="236" y="90" width="40" height="30" fill="#E76F51" stroke="#EBEBEB" stroke-width="0.5"/><text x="256" y="109" text-anchor="middle" font-size="8.5" fill="#FFFFFF">27.5%</text>
+  <rect x="276" y="90" width="40" height="30" fill="#C05B5B" stroke="#EBEBEB" stroke-width="0.5"/><text x="296" y="109" text-anchor="middle" font-size="8.5" fill="#FFFFFF">4.4%</text>
+  <rect x="316" y="90" width="40" height="30" fill="#C05B5B" stroke="#EBEBEB" stroke-width="0.5"/><text x="336" y="109" text-anchor="middle" font-size="8.5" fill="#FFFFFF">4.6%</text>
+  <rect x="356" y="90" width="40" height="30" fill="#C05B5B" stroke="#EBEBEB" stroke-width="0.5"/><text x="376" y="109" text-anchor="middle" font-size="8.5" fill="#FFFFFF">4.9%</text>
+  <rect x="396" y="90" width="40" height="30" fill="#C05B5B" stroke="#EBEBEB" stroke-width="0.5"/><text x="416" y="109" text-anchor="middle" font-size="8.5" fill="#FFFFFF">4.3%</text>
+  <rect x="436" y="90" width="40" height="30" fill="#C05B5B" stroke="#EBEBEB" stroke-width="0.5"/><text x="456" y="109" text-anchor="middle" font-size="8.5" fill="#FFFFFF">3.3%</text>
+  <rect x="476" y="90" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="496" y="109" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="516" y="90" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="536" y="109" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+
+  <!-- ─── 2024-04  n=451  ───────────────────────────────────── -->
+  <!-- M0=100.0 M1=16.2 M2=16.0 M3=19.5 M4=2.0 M5=2.0 M6=1.3 M7=4.0 M8=3.3 M9=— M10=— M11=— -->
+  <rect x="0"   y="120" width="76" height="30" fill="#F8F9FA" stroke="#EBEBEB" stroke-width="0.5"/>
+  <text x="38"  y="131" text-anchor="middle" font-size="9" font-weight="700" fill="#1C2B36">2024-04</text>
+  <text x="38"  y="142" text-anchor="middle" font-size="8" fill="#8A9BB0">n=451</text>
+  <rect x="76"  y="120" width="40" height="30" fill="#2D6A4F" stroke="#EBEBEB" stroke-width="0.5"/><text x="96"  y="139" text-anchor="middle" font-size="8.5" fill="#1C2B36">100%</text>
+  <rect x="116" y="120" width="40" height="30" fill="#C05B5B" stroke="#EBEBEB" stroke-width="0.5"/><text x="136" y="139" text-anchor="middle" font-size="8.5" fill="#FFFFFF">16.2%</text>
+  <rect x="156" y="120" width="40" height="30" fill="#C05B5B" stroke="#EBEBEB" stroke-width="0.5"/><text x="176" y="139" text-anchor="middle" font-size="8.5" fill="#FFFFFF">16.0%</text>
+  <rect x="196" y="120" width="40" height="30" fill="#C05B5B" stroke="#EBEBEB" stroke-width="0.5"/><text x="216" y="139" text-anchor="middle" font-size="8.5" fill="#FFFFFF">19.5%</text>
+  <rect x="236" y="120" width="40" height="30" fill="#C05B5B" stroke="#EBEBEB" stroke-width="0.5"/><text x="256" y="139" text-anchor="middle" font-size="8.5" fill="#FFFFFF">2.0%</text>
+  <rect x="276" y="120" width="40" height="30" fill="#C05B5B" stroke="#EBEBEB" stroke-width="0.5"/><text x="296" y="139" text-anchor="middle" font-size="8.5" fill="#FFFFFF">2.0%</text>
+  <rect x="316" y="120" width="40" height="30" fill="#C05B5B" stroke="#EBEBEB" stroke-width="0.5"/><text x="336" y="139" text-anchor="middle" font-size="8.5" fill="#FFFFFF">1.3%</text>
+  <rect x="356" y="120" width="40" height="30" fill="#C05B5B" stroke="#EBEBEB" stroke-width="0.5"/><text x="376" y="139" text-anchor="middle" font-size="8.5" fill="#FFFFFF">4.0%</text>
+  <rect x="396" y="120" width="40" height="30" fill="#C05B5B" stroke="#EBEBEB" stroke-width="0.5"/><text x="416" y="139" text-anchor="middle" font-size="8.5" fill="#FFFFFF">3.3%</text>
+  <rect x="436" y="120" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="456" y="139" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="476" y="120" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="496" y="139" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="516" y="120" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="536" y="139" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+
+  <!-- ─── 2024-05  n=102  ───────────────────────────────────── -->
+  <!-- M0=100.0 M1=41.2 M2=53.9 M3=1.0 M4=3.9 M5=2.9 M6=2.0 M7=8.8 M8=— M9=— M10=— M11=— -->
+  <rect x="0"   y="150" width="76" height="30" fill="#F8F9FA" stroke="#EBEBEB" stroke-width="0.5"/>
+  <text x="38"  y="161" text-anchor="middle" font-size="9" font-weight="700" fill="#1C2B36">2024-05</text>
+  <text x="38"  y="172" text-anchor="middle" font-size="8" fill="#8A9BB0">n=102</text>
+  <rect x="76"  y="150" width="40" height="30" fill="#2D6A4F" stroke="#EBEBEB" stroke-width="0.5"/><text x="96"  y="169" text-anchor="middle" font-size="8.5" fill="#1C2B36">100%</text>
+  <rect x="116" y="150" width="40" height="30" fill="#E9C46A" stroke="#EBEBEB" stroke-width="0.5"/><text x="136" y="169" text-anchor="middle" font-size="8.5" fill="#1C2B36">41.2%</text>
+  <rect x="156" y="150" width="40" height="30" fill="#E9C46A" stroke="#EBEBEB" stroke-width="0.5"/><text x="176" y="169" text-anchor="middle" font-size="8.5" fill="#1C2B36">53.9%</text>
+  <rect x="196" y="150" width="40" height="30" fill="#C05B5B" stroke="#EBEBEB" stroke-width="0.5"/><text x="216" y="169" text-anchor="middle" font-size="8.5" fill="#FFFFFF">1.0%</text>
+  <rect x="236" y="150" width="40" height="30" fill="#C05B5B" stroke="#EBEBEB" stroke-width="0.5"/><text x="256" y="169" text-anchor="middle" font-size="8.5" fill="#FFFFFF">3.9%</text>
+  <rect x="276" y="150" width="40" height="30" fill="#C05B5B" stroke="#EBEBEB" stroke-width="0.5"/><text x="296" y="169" text-anchor="middle" font-size="8.5" fill="#FFFFFF">2.9%</text>
+  <rect x="316" y="150" width="40" height="30" fill="#C05B5B" stroke="#EBEBEB" stroke-width="0.5"/><text x="336" y="169" text-anchor="middle" font-size="8.5" fill="#FFFFFF">2.0%</text>
+  <rect x="356" y="150" width="40" height="30" fill="#C05B5B" stroke="#EBEBEB" stroke-width="0.5"/><text x="376" y="169" text-anchor="middle" font-size="8.5" fill="#FFFFFF">8.8%</text>
+  <rect x="396" y="150" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="416" y="169" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="436" y="150" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="456" y="169" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="476" y="150" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="496" y="169" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="516" y="150" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="536" y="169" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+
+  <!-- ─── 2024-06  n=39  ────────────────────────────────────── -->
+  <!-- M0=100.0 M1=48.7 M2=2.6 M3=5.1 M4=2.6 M5=7.7 M6=5.1 M7=— … M11=— -->
+  <rect x="0"   y="180" width="76" height="30" fill="#F8F9FA" stroke="#EBEBEB" stroke-width="0.5"/>
+  <text x="38"  y="191" text-anchor="middle" font-size="9" font-weight="700" fill="#1C2B36">2024-06</text>
+  <text x="38"  y="202" text-anchor="middle" font-size="8" fill="#8A9BB0">n=39</text>
+  <rect x="76"  y="180" width="40" height="30" fill="#2D6A4F" stroke="#EBEBEB" stroke-width="0.5"/><text x="96"  y="199" text-anchor="middle" font-size="8.5" fill="#1C2B36">100%</text>
+  <rect x="116" y="180" width="40" height="30" fill="#E9C46A" stroke="#EBEBEB" stroke-width="0.5"/><text x="136" y="199" text-anchor="middle" font-size="8.5" fill="#1C2B36">48.7%</text>
+  <rect x="156" y="180" width="40" height="30" fill="#C05B5B" stroke="#EBEBEB" stroke-width="0.5"/><text x="176" y="199" text-anchor="middle" font-size="8.5" fill="#FFFFFF">2.6%</text>
+  <rect x="196" y="180" width="40" height="30" fill="#C05B5B" stroke="#EBEBEB" stroke-width="0.5"/><text x="216" y="199" text-anchor="middle" font-size="8.5" fill="#FFFFFF">5.1%</text>
+  <rect x="236" y="180" width="40" height="30" fill="#C05B5B" stroke="#EBEBEB" stroke-width="0.5"/><text x="256" y="199" text-anchor="middle" font-size="8.5" fill="#FFFFFF">2.6%</text>
+  <rect x="276" y="180" width="40" height="30" fill="#C05B5B" stroke="#EBEBEB" stroke-width="0.5"/><text x="296" y="199" text-anchor="middle" font-size="8.5" fill="#FFFFFF">7.7%</text>
+  <rect x="316" y="180" width="40" height="30" fill="#C05B5B" stroke="#EBEBEB" stroke-width="0.5"/><text x="336" y="199" text-anchor="middle" font-size="8.5" fill="#FFFFFF">5.1%</text>
+  <rect x="356" y="180" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="376" y="199" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="396" y="180" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="416" y="199" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="436" y="180" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="456" y="199" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="476" y="180" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="496" y="199" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="516" y="180" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="536" y="199" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+
+  <!-- ─── 2024-07  n=38  ────────────────────────────────────── -->
+  <!-- M0=100.0 M1=— (sin datos) M2=2.6 M3=5.3 M4–M11=— -->
+  <rect x="0"   y="210" width="76" height="30" fill="#F8F9FA" stroke="#EBEBEB" stroke-width="0.5"/>
+  <text x="38"  y="221" text-anchor="middle" font-size="9" font-weight="700" fill="#1C2B36">2024-07</text>
+  <text x="38"  y="232" text-anchor="middle" font-size="8" fill="#8A9BB0">n=38</text>
+  <rect x="76"  y="210" width="40" height="30" fill="#2D6A4F" stroke="#EBEBEB" stroke-width="0.5"/><text x="96"  y="229" text-anchor="middle" font-size="8.5" fill="#1C2B36">100%</text>
+  <rect x="116" y="210" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="136" y="229" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="156" y="210" width="40" height="30" fill="#C05B5B" stroke="#EBEBEB" stroke-width="0.5"/><text x="176" y="229" text-anchor="middle" font-size="8.5" fill="#FFFFFF">2.6%</text>
+  <rect x="196" y="210" width="40" height="30" fill="#C05B5B" stroke="#EBEBEB" stroke-width="0.5"/><text x="216" y="229" text-anchor="middle" font-size="8.5" fill="#FFFFFF">5.3%</text>
+  <rect x="236" y="210" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="256" y="229" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="276" y="210" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="296" y="229" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="316" y="210" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="336" y="229" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="356" y="210" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="376" y="229" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="396" y="210" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="416" y="229" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="436" y="210" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="456" y="229" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="476" y="210" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="496" y="229" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="516" y="210" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="536" y="229" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+
+  <!-- ─── 2024-08  n=13  — solo M0 ─────────────────────────── -->
+  <rect x="0"   y="240" width="76" height="30" fill="#F8F9FA" stroke="#EBEBEB" stroke-width="0.5"/>
+  <text x="38"  y="251" text-anchor="middle" font-size="9" font-weight="700" fill="#1C2B36">2024-08</text>
+  <text x="38"  y="262" text-anchor="middle" font-size="8" fill="#8A9BB0">n=13</text>
+  <rect x="76"  y="240" width="40" height="30" fill="#2D6A4F" stroke="#EBEBEB" stroke-width="0.5"/><text x="96"  y="259" text-anchor="middle" font-size="8.5" fill="#1C2B36">100%</text>
+  <rect x="116" y="240" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="136" y="259" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="156" y="240" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="176" y="259" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="196" y="240" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="216" y="259" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="236" y="240" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="256" y="259" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="276" y="240" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="296" y="259" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="316" y="240" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="336" y="259" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="356" y="240" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="376" y="259" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="396" y="240" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="416" y="259" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="436" y="240" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="456" y="259" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="476" y="240" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="496" y="259" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="516" y="240" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="536" y="259" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+
+  <!-- ─── 2024-09  n=12  — solo M0 ─────────────────────────── -->
+  <rect x="0"   y="270" width="76" height="30" fill="#F8F9FA" stroke="#EBEBEB" stroke-width="0.5"/>
+  <text x="38"  y="281" text-anchor="middle" font-size="9" font-weight="700" fill="#1C2B36">2024-09</text>
+  <text x="38"  y="292" text-anchor="middle" font-size="8" fill="#8A9BB0">n=12</text>
+  <rect x="76"  y="270" width="40" height="30" fill="#2D6A4F" stroke="#EBEBEB" stroke-width="0.5"/><text x="96"  y="289" text-anchor="middle" font-size="8.5" fill="#1C2B36">100%</text>
+  <rect x="116" y="270" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="136" y="289" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="156" y="270" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="176" y="289" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="196" y="270" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="216" y="289" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="236" y="270" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="256" y="289" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="276" y="270" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="296" y="289" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="316" y="270" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="336" y="289" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="356" y="270" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="376" y="289" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="396" y="270" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="416" y="289" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="436" y="270" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="456" y="289" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="476" y="270" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="496" y="289" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="516" y="270" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="536" y="289" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+
+  <!-- ─── 2024-10  n=13  — solo M0 ─────────────────────────── -->
+  <rect x="0"   y="300" width="76" height="30" fill="#F8F9FA" stroke="#EBEBEB" stroke-width="0.5"/>
+  <text x="38"  y="311" text-anchor="middle" font-size="9" font-weight="700" fill="#1C2B36">2024-10</text>
+  <text x="38"  y="322" text-anchor="middle" font-size="8" fill="#8A9BB0">n=13</text>
+  <rect x="76"  y="300" width="40" height="30" fill="#2D6A4F" stroke="#EBEBEB" stroke-width="0.5"/><text x="96"  y="319" text-anchor="middle" font-size="8.5" fill="#1C2B36">100%</text>
+  <rect x="116" y="300" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="136" y="319" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="156" y="300" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="176" y="319" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="196" y="300" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="216" y="319" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="236" y="300" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="256" y="319" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="276" y="300" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="296" y="319" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="316" y="300" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="336" y="319" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="356" y="300" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="376" y="319" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="396" y="300" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="416" y="319" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="436" y="300" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="456" y="319" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="476" y="300" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="496" y="319" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="516" y="300" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="536" y="319" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+
+  <!-- ─── 2024-11  n=33  — M0 + M1=3.0% ───────────────────── -->
+  <rect x="0"   y="330" width="76" height="30" fill="#F8F9FA" stroke="#EBEBEB" stroke-width="0.5"/>
+  <text x="38"  y="341" text-anchor="middle" font-size="9" font-weight="700" fill="#1C2B36">2024-11</text>
+  <text x="38"  y="352" text-anchor="middle" font-size="8" fill="#8A9BB0">n=33</text>
+  <rect x="76"  y="330" width="40" height="30" fill="#2D6A4F" stroke="#EBEBEB" stroke-width="0.5"/><text x="96"  y="349" text-anchor="middle" font-size="8.5" fill="#1C2B36">100%</text>
+  <rect x="116" y="330" width="40" height="30" fill="#C05B5B" stroke="#EBEBEB" stroke-width="0.5"/><text x="136" y="349" text-anchor="middle" font-size="8.5" fill="#FFFFFF">3.0%</text>
+  <rect x="156" y="330" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="176" y="349" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="196" y="330" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="216" y="349" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="236" y="330" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="256" y="349" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="276" y="330" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="296" y="349" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="316" y="330" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="336" y="349" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="356" y="330" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="376" y="349" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="396" y="330" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="416" y="349" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="436" y="330" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="456" y="349" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="476" y="330" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="496" y="349" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="516" y="330" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="536" y="349" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+
+  <!-- ─── 2024-12  n=35  — solo M0 ─────────────────────────── -->
+  <rect x="0"   y="360" width="76" height="30" fill="#F8F9FA" stroke="#EBEBEB" stroke-width="0.5"/>
+  <text x="38"  y="371" text-anchor="middle" font-size="9" font-weight="700" fill="#1C2B36">2024-12</text>
+  <text x="38"  y="382" text-anchor="middle" font-size="8" fill="#8A9BB0">n=35</text>
+  <rect x="76"  y="360" width="40" height="30" fill="#2D6A4F" stroke="#EBEBEB" stroke-width="0.5"/><text x="96"  y="379" text-anchor="middle" font-size="8.5" fill="#1C2B36">100%</text>
+  <rect x="116" y="360" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="136" y="379" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="156" y="360" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="176" y="379" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="196" y="360" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="216" y="379" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="236" y="360" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="256" y="379" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="276" y="360" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="296" y="379" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="316" y="360" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="336" y="379" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="356" y="360" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="376" y="379" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="396" y="360" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="416" y="379" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="436" y="360" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="456" y="379" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="476" y="360" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="496" y="379" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+  <rect x="516" y="360" width="40" height="30" fill="#F5F5F5" stroke="#EBEBEB" stroke-width="0.5"/><text x="536" y="379" text-anchor="middle" font-size="8.5" fill="#CCCCCC">—</text>
+
+  <!-- ─── LEGEND ────────────────────────────────────────────── -->
+  <rect x="76"  y="402" width="10" height="10" rx="2" fill="#2D6A4F"/>
+  <text x="90"  y="411" font-size="9" fill="#8A9BB0">≥ 80%</text>
+  <rect x="138" y="402" width="10" height="10" rx="2" fill="#52B788"/>
+  <text x="152" y="411" font-size="9" fill="#8A9BB0">60 – 79%</text>
+  <rect x="214" y="402" width="10" height="10" rx="2" fill="#E9C46A"/>
+  <text x="228" y="411" font-size="9" fill="#8A9BB0">40 – 59%</text>
+  <rect x="290" y="402" width="10" height="10" rx="2" fill="#E76F51"/>
+  <text x="304" y="411" font-size="9" fill="#8A9BB0">20 – 39%</text>
+  <rect x="366" y="402" width="10" height="10" rx="2" fill="#C05B5B"/>
+  <text x="380" y="411" font-size="9" fill="#8A9BB0">&lt; 20%</text>
+</svg>

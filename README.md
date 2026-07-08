@@ -165,6 +165,54 @@
   </tr>
 </table>
 
+<img src="assets/product_performance.svg" alt="performance by product (2024)" width="1000"/>
+
+<table aign="center">
+  <tr>
+      <td width="333" valign="top">
+      <h3>The Best and Worst</h3>
+      <ul>
+        <li>Winter Wear led annual revenue at $123.4M MXN the top category consistently across all 12 months.</li>
+        <li>Formal Wear is the second-best at $119.8M MXN (30.5%), separated from Winter Wear by only $3.6M.</li>
+        <li>Beachwear is the lowest-revenue category at $22.0M MXN (5.6%) — unlike typical seasonality expectations, it peaks in December .</li>
+      </ul>
+      </td>
+  <td width="333" valign="top">
+      <h3>AOV Over Time</h3>
+      <ul>
+        <li>December AOV is the highest month of the year — holiday gifting and premium seasonal fashion drive larger average tickets across all customer tiers.</li>
+        <li>El Buen Fin creates a visible AOV dip. Total November revenue still exceeds October because volume growth outweighs the AOV decline. </li>
+        <li>A secondary May AOV uptick is visible across categories, driven by Día de las Madres .</li>
+        <li>Winter Wear and Formal Wear are the primary AOV drivers — their premium price points keep the overall average elevated relative to Casual Wear (
+            $75.7M on higher volume) and Beachwear ($22.0M at the lowest price tier).</li>
+      </ul>
+      </td>
+      <td width="333" valign="top">
+      <h3>Seasonal Findings</h3>
+      <ul>
+        <li>December dominates across all five categories. The holiday and year-end gifting season is the single most impactful revenue event.</li>
+        <li>February is the universal low point across all categories, reflecting post-holiday demand contraction. No category is an exception.</li>
+        <li>November shows a dual signal: AOV contracts (El Buen Fin discounts) while total revenue rises (volume surge). Winter Wear reaches $10.9M and Formal Wear $10.6M — both above their monthly average.</li>
+      </ul>
+      </td>
+</tr>
+</table>
+<table align="center">
+    <tr align="center">
+      <td width="1000" valign="top">
+      <h3>AOV Over Time (2019-2022)</h3>
+      <img width="450" src="https://res.cloudinary.com/dxctpvd8v/image/upload/v1740156855/AOV_Products_BarGraph_CamilingJS">
+    </td>
+    <td width="1000">
+      <h3>Product Sales Heat Map by Quarter</h3>
+      <img width="450" src="https://res.cloudinary.com/dxctpvd8v/image/upload/v1740646006/Sales_Heatmap_CamilingJS">
+    </td>
+  </tr>
+</table>
+
+
+</table>
+
 ## Executive Summary
 
 <div align="center">

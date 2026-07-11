@@ -218,12 +218,12 @@
 <table>
   <tr>
     <td>
-      <strong>Sales Revenue</strong>
+      <strong>Cohort Analysis</strong>
       <ol>
-        <li>December Peak — Q4 Concentration Defines the Annual Revenue Profile <ul>
-            <li>December recorded the highest monthly revenue of the year (~$44M). </li>
-            <li>Confirming Q4 as the primary revenue driver. This concentration reflects the Champions segment's sustained activity through December, a tier that carries 
-                a 50x purchase weight relative to baseline buyers. </li>
+        <li>Good opening <ul>
+            <li>During the opening month, 4,382 new customers were registered, with a solid retention rate of 58–64% over the first six months; 
+            in the subsequent period, the retention rate dropped to 35% over the course of six months. From the third quarter onwards, 
+            the acquisition of new customers came to a complete halt, with only 12 to 38 new customers per month.</li>
           </ul>
         </li>
         <li>Mid-Year Stability Masks a Structural Shift <ul>

@@ -33,7 +33,7 @@
 </table>
 <table align="center">
   <tr>
-    <div width="920">
+    <div width="920">   
       <h1 align="center">Executive Summary</h1>
       <h3 align="center">BI Dashboard (2024 Period)</h3>
       <div align="center">
@@ -209,8 +209,71 @@
     </td>
   </tr>
 </table>
+</table>
 
-
+## Cohort Analysis
+<div align="center">
+  <img src="assets/cohort_heatmap.svg" alt="Cohort Retention Heatmap VISTARA 2024" width="100%">
+</div>
+<table>
+  <tr>
+    <td>
+      <strong>Cohort Analysis</strong>
+      <ol>
+        <li>Good opening <ul>
+            <li>During the opening month, 4,382 new customers were registered, with a solid retention rate of 58–64% over the first six months; 
+            in the subsequent period, the retention rate dropped to 35% over the course of six months. From the third quarter onwards, 
+            the acquisition of new customers came to a complete halt, with only 12 to 38 new customers per month.</li>
+          </ul>
+        </li>
+        <li>Mid-Year Stability Masks a Structural Shift <ul>
+            <li>From February through October, monthly revenue holds relatively stable in the $30–34M range. As lower-value tiers exit their active purchase windows the total order 
+                count declines while per-order value rises. Revenue remains stable not because of consistent volume, but because higher-value segments progressively absorb a larger 
+                share of transactions. </li>
+            <li>2021 Slight Slowdown: Sales remained high but started stabilizing, showing a decline from peak pandemic levels.</li>
+            <li>2022 Major Decline: A <strong>consistent drop in sales across all quarters</strong> suggests a post-pandemic correction, with inflation, lower consumer spending, or increased competition. </li>
+          </ul>
+        </li>
+        <li>Declining Growth Throughout 2022 – Indicating Weak Consumer Demand <ul>
+            <li>Each quarter in 2022 experienced a downward trend.</li>
+            <li>Q1: Started fairly strong ($704K in Jan) but lower than 2021.</li>
+            <li>Q2 - Q3: Dropped further, below $500K per month and continued decline through Q3 with Aug/Sep below $400K.</li>
+            <li>Q4: <strong>Historic low, indicating critical demand issues</strong>. This suggests customer retention, pricing, or product-market fit issues. TechSphere may need to re-strategize through marketing, promotions, or change in pricing. </li>
+          </ul>
+        </li>
+      </ol>
+      <strong>Average Order Value</strong>
+      <ol>
+        <li> Sharp AOV Surge in 2020, followed by a Decline in 2021-2022 <ul>
+            <li>
+              <strong>2020 saw the highest AOV growth, peaking at $322 (Oct 2020)</strong> compared to $246 (Nov 2019), aligning with pandemic-driven eCommerce boom.
+            </li>
+            <li>Post-pandemic correction (2021-2022) led to a steady decline, with AOV in 2022 returning close to 2019 levels (~$234-$237).</li>
+          </ul>
+        </li>
+        <li>2022 AOV is lower and relatively more volatile compared to previous years <ul>
+            <li>
+              <strong>2022 AOV fluctuates significantly </strong> between $216 (Oct) and $256 (Sep).
+            </li>
+            <li>Q4 2022 AOV is significantly lower than Q4 2020 & 2021, meaning holiday spending per order has dropped.</li>
+          </ul>
+        </li>
+        <li>Long-Term AOV Decline May Indicate Price Sensitivity <ul>
+            <li>From a peak of ~$322 in 2020, AOV steadily dropped to ~$234 in 2022 which is 27% drop.</li>
+            <li>Over the span of four years, the change in AOV growth has been relatively constant, indicating minimal changes in product pricing (as illustrated in Sales Growth vs. AOV Growth below).</li>
+            <li>AOV in 2022 is likely not a major factor in the decline of sales that year.</li>
+          </ul>
+        </li>
+      </ol>
+      <strong>Order Count</strong>
+      <ol>
+        <li>Order counts closely follow sales revenue, indicating that the decline in revenue is primarily due to <strong>fewer orders</strong> rather than a drop in AOV in 2022. </li>
+        <li>Total orders <strong>dropped by 38%</strong> from 2021 to 2022. </li>
+        <li>The sales anamoly and decline <strong>started in mid-2022</strong>, with orders falling from 2,034 in July to just 825 in October. </li>
+        <li>While people are spending slightly less per order, the <strong>decline in order frequency</strong> directly results in lower sales revenue. </li>
+      </ol>
+    </td>
+  </tr>
 </table>
 
 ## Executive Summary

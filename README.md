@@ -220,7 +220,7 @@
     <td>
       <strong>Cohort Analysis</strong>
       <ol>
-        <li>Good opening <ul>
+        <li>Customer acquisition effectively stopped after April  <ul>
             <li>During the opening month, 4,382 new customers were registered, with a solid retention rate of 58–64% over the first six months; 
             in the subsequent period, the retention rate dropped to 35% over the course of six months. From the third quarter onwards, 
             the acquisition of new customers came to a complete halt, with only 12 to 38 new customers per month.</li>

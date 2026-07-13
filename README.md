@@ -197,18 +197,7 @@
       </td>
 </tr>
 </table>
-<table align="center">
-    <tr align="center">
-      <td width="1000" valign="top">
-      <h3>AOV Over Time (2019-2022)</h3>
-      <img width="450" src="https://res.cloudinary.com/dxctpvd8v/image/upload/v1740156855/AOV_Products_BarGraph_CamilingJS">
-    </td>
-    <td width="1000">
-      <h3>Product Sales Heat Map by Quarter</h3>
-      <img width="450" src="https://res.cloudinary.com/dxctpvd8v/image/upload/v1740646006/Sales_Heatmap_CamilingJS">
-    </td>
-  </tr>
-</table>
+
 </table>
 
 ## Cohort Analysis
@@ -226,7 +215,7 @@
             the acquisition of new customers came to a complete halt, with only 12 to 38 new customers per month.</li>
           </ul>
         </li>
-        <li>Mid-Year Stability Masks a Structural Shift <ul>
+        <li>The greatest customer loss occurs between M1 and M3<ul>
             <li>From February through October, monthly revenue holds relatively stable in the $30–34M range. As lower-value tiers exit their active purchase windows the total order 
                 count declines while per-order value rises. Revenue remains stable not because of consistent volume, but because higher-value segments progressively absorb a larger 
                 share of transactions. </li>

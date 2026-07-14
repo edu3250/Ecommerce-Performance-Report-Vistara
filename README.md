@@ -83,7 +83,7 @@
 </table>
 
 <h2 align="center">Dataset Structure and ERD (Entity relationship diagram)</h2>
-<body>The database structure as seen below consists of eight tables: orders, customers, products, dates, order details, returns, inventory and receipts with a total row count of 10,000 records.</body>
+<body>The database structure as seen below consists of eight tables: orders, customers, products, dates, order details, returns, inventory and receipts with a total of 220,000 records.</body>
 <div align="center">
   <img src="assets/erd.svg" alt="Vistara ERD Diagram · Mexico" width="900"/>
 </div>
@@ -265,86 +265,94 @@
   </tr>
 </table>
 
+
+
+</table>
+<table align="center">
+  <tr>
+    <h1 align="center">RFM Segmentation</h1>
+    <table align="center">
+    <tr align="center">
+      <td width="1000">
+      <h3>Average Order Value by Loyalty Status</h3>
+      <img width="781" height="552" alt="image" src="https://github.com/user-attachments/assets/bc71cbf6-261d-4c22-96a6-91c0ef06a1c0" />
+    </td>
+    <td width="1000">
+      <h3>Number of Orders by Loyalty Status</h3>
+      <img width="706" height="292" alt="image" src="https://github.com/user-attachments/assets/392c8f4b-fcfb-4a98-81d4-4d37d0ee343f" />
+    </td>
+  </tr>
+</table>
+    <table>
+      <tr>
+        <td>
+          <ul>
+            <li>Loyalty members have sustained AOV growth beyond the pandemic boom, with sales revenue increasing from $0.4M in 2019 to $2.7M in 2022 and an AOV growth rate of 18% from 2019 to 2022. Loyalty members continued to purchase higher-priced products and place more orders after the pandemic boom, up until August 2022.</li>
+            <li>Non-loyalty members have not sustained sales revenue and AOV growth beyond the pandemic boom, with sales revenue decreasing from $3.4M in 2019 to $2.2M in 2022, along with an AOV decline of 8% during the same period.</li>
+            <li>In 2022, loyalty members spent almost $31 more on average than non-loyalty members ($245 vs. $214). AOV for loyalty members has steadily increased year over year, climbing 1.1% from 2021, while non-loyalty members' AOV declined by 18.7%.</li>
+            <li>Loyalty members outspend non-loyalty members on returning orders by nearly $60, whereas non-loyalty members have historically spent more on their first TechSphere orders.</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+  </tr>
+</table>
+<table align="center">
+  <h1 align="center">Refund Rates</h1>
+  <tr>
+    <td width="500">
+       <div valign="top" align="center">
+      <h3>Refund Rate per Product Type</h3>
+      <img alt="Refund heat map of products" src="https://res.cloudinary.com/dxctpvd8v/image/upload/v1740637891/Refund_Rates_Per_Product_Heatmap_CamilingJS" />
+    </div>
+    </td>
+    <td valign="top" width="500">
+      <ul>
+        <li>Laptops have the lowest retention rate, with the highest return rate year over year being the ThinkPad Laptop, followed by the MacBook Air Laptop.</li>
+        <li>Coincidentally, these two items have the highest AOV and are TechSphere's most expensive products.</li>
+        <li>The least returned product is the Bose SoundSport Headphones, with a return rate of 0%, followed by the Samsung Charging Cable Pack, with an average return rate of 2%.</li>
+        <li>However, the Bose SoundSport Headphones are the least frequently purchased product, and the Samsung Charging Cable Pack ranks in the bottom half of purchase orders.</li>
+        <li>For 2022, there were no recorded returns for any product.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+<table align="center">
+  <h1 align="center">Regional Results</h1>
+      <div align="center">
+        <img width="1000" alt="Sales by region" src="https://res.cloudinary.com/dxctpvd8v/image/upload/v1743795515/Regional_Barbel_Graph_CamilingJS" />
+      </div>
+  <tr valign="top">
+     <td width="900">
+      <ul>
+        <li>The North American region contributes the most to sales revenue for each TechSphere product.</li>
+          <ul>
+            <li>An average of 52% of total sales per product.</li>
+            <li>$2.7 million in 2022.</li>
+          </ul>
+        <li>In contrast, TechSphere sales have underperformed in the Latin American region.</li>
+          <ul>
+            <li>Each product accounts for only an average of 6% of total sales.</li>
+            <li>$256 thousand in 2022.</li>
+          </ul>
+        <li>Samsung Webcam see their highest sales rate in North America.</li>
+          <ul>
+            <li>58% of total sales occur in this region.</li>
+          </ul>
+        <li>The 27-Inch 4K Gaming Monitor is the most popular across products.</li>
+          <ul>
+            <li>Accounts for 35% of total product sales.</li>
+          </ul>
+        <li>Meanwhile, the Bose SoundSport Headphones are the least favored.</li>
+          <ul>
+            <li>Sales are close to 0% across products</li>
+          </ul>
+      </ul>
+    </td>
+  </tr>
+</table>
 ## Executive Summary
 
-<div align="center">
-
-*Page 1 — Executive KPIs Dashboard*
-
-</div>
-
-| KPI | Value | Trend |
-|-----|-------|-------|
-| Total Net Revenue (1Y) | ~$1.72M / month avg | ▲ Peaks in Q1 and Q4 |
-| MoM Revenue Growth | Tracked dynamically | Compared to prior month |
-| Avg Spend per Customer | Calculated by period | Period-filtered |
-| Churn Rate | Dynamic by period | Inverted indicator (↓ = good) |
-| Total Registered Customers | 10,000 | Stable base |
-
-**Key executive findings:**
-
-1. **Revenue is driven by a small champion segment.** The top 5% of customers (Champions tier) generate disproportionate revenue — consistent with the Pareto distribution used in data generation and confirmed by the RFM treemap.
-
-2. **Loyal Customers peak at 15–25 months of tenure.** Beyond that window, engagement and average spend drop significantly — signaling a retention risk window that is actionable.
-
-3. **Champions grow in value with tenure.** Unlike other segments, Champions' average spend increases continuously up to 75 months of relationship — making long-term retention the highest-ROI strategy.
-
-4. **Cohort retention decays rapidly after Month 1.** January cohort retains ~59% in Month 1, dropping to ~36% by Month 3 — typical for premium fashion e-commerce, but improvement is feasible through loyalty incentives.
-
----
-
-## Dataset Structure & ERD
-
-The database was generated entirely in Python using a Pareto-weighted behavioral model and loaded into PostgreSQL under the `vistara` schema.
-
-```
-vistara_db
-└── schema: vistara
-    ├── dim_customers         — 10,000 customers with tier assignment
-    ├── dim_products          — product catalog with categories
-    ├── dim_sales_outlet      — store locations
-    ├── dim_dates             — full date dimension
-    ├── fact_sales_receipts   — ~219K transactions
-    ├── fact_order_details    — line-level detail (price, qty, discount)
-    ├── fact_returns          — ~1,572 returns (~0.72% return rate)
-    └── fact_inventory        — stock records
-```
-
-**Customer tier distribution (Pareto weights):**
-
-| Tier | % of Customers | Purchase Weight | Active Until |
-|------|---------------|----------------|-------------|
-| Champions | 5% | 50x | December |
-| Loyal | 15% | 15x | October |
-| Regular | 25% | 5x | July |
-| Occasional | 30% | 2x | April |
-| One-time | 25% | 0.5x | February |
-
-> The Pareto weighting ensures realistic purchase frequency variance: min 1 order, median 7, max 129 per customer.
-
----
-
-## Analytical SQL Views
-
-Five analytical views are built on top of the fact tables, forming the data layer consumed by Power BI.
-
-```
-fact_sales_receipts + fact_order_details + fact_returns
-        │
-        ├──► v_rfm_base          ← raw R/F/M values per customer
-        │         │
-        │    v_rfm_scores        ← NTILE(5) scores per dimension
-        │         │
-        │    v_rfm_segments      ← named segments (Champions, At Risk…)
-        │
-        ├──► v_churn_analysis    ← Active / At Risk / Churned
-        │
-        ├──► v_monthly_revenue   ← monthly net revenue summary
-        │
-        ├──► v_monthly_retention ← retained vs. new customers per month
-        │
-        └──► v_cohort_retention  ← cohort matrix (M0, M1, M2… retention %)
-```
 
 **RFM scoring logic (NTILE-based):**
 

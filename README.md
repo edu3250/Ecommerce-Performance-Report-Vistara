@@ -52,7 +52,7 @@
           <li>
             <strong>Where Revenue Comes From</strong>
             <ul>
-              <li>A small group of customers. 20% of the customers (champions) generate 76% of total revenue.The remaining customer base contributes meaningfully in Q1 and Q2 but shows
+              <li>A small group of customers. 27% of the customers (champions) generate 76% of total revenue.The remaining customer base contributes meaningfully in Q1 and Q2 but shows
                   declining activity through the second half of the year.</li>
               <li>ssss.</li>
             </ul>
@@ -71,9 +71,9 @@
           <li>
             <strong>Key Takeaways & Recommendations</strong>
             <ul>
-              <li>Investigate the causes of the 2022 decline (e.g., market changes, competition, internal factors).</li>
-              <li>Leverage high-performing periods (e.g., Q3 and Q4 of strong years) to refine marketing and sales strategies.</li>
-              <li>Reassess business strategy for 2023, focusing on pricing, promotions, and customer engagement to regain momentum.</li>
+              <li></li>
+              <li></li>
+              <li></li>
             </ul>
           </li>
         </ol>
@@ -119,15 +119,15 @@
             <li>From February through October, monthly revenue holds relatively stable in the $30–34M range. As lower-value tiers exit their active purchase windows the total order 
                 count declines while per-order value rises. Revenue remains stable not because of consistent volume, but because higher-value segments progressively absorb a larger 
                 share of transactions. </li>
-            <li>2021 Slight Slowdown: Sales remained high but started stabilizing, showing a decline from peak pandemic levels.</li>
-            <li>2022 Major Decline: A <strong>consistent drop in sales across all quarters</strong> suggests a post-pandemic correction, with inflation, lower consumer spending, or increased competition. </li>
+            <li>.</li>
+            <li> </li>
           </ul>
         </li>
         <li>Declining Growth Throughout 2022 – Indicating Weak Consumer Demand <ul>
-            <li>Each quarter in 2022 experienced a downward trend.</li>
-            <li>Q1: Started fairly strong ($704K in Jan) but lower than 2021.</li>
-            <li>Q2 - Q3: Dropped further, below $500K per month and continued decline through Q3 with Aug/Sep below $400K.</li>
-            <li>Q4: <strong>Historic low, indicating critical demand issues</strong>. This suggests customer retention, pricing, or product-market fit issues. TechSphere may need to re-strategize through marketing, promotions, or change in pricing. </li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li> </li>
           </ul>
         </li>
       </ol>
@@ -301,3 +301,50 @@
   </tr>
 </table>
 
+<!-- <table>
+  <tr>
+    <td width="700" border="0"><h1>Recommendations</h1>
+    <h4>Based on the uncovered insights, here are actionable items that TechSphere can take away from our analysis.</h4></td>
+    <td width="400" border="0"><div align="right">
+      <img width="192" src="https://res.cloudinary.com/dxctpvd8v/image/upload/v1739421238/TechShere_Logo_CamilingJS" />
+    </div></td>
+  </tr>
+</table> -->
+<table align="center">
+    <h1>Recommendations</h1>
+    <h4>Based on the uncovered insights, here are actionable items that TechSphere can take away from our analysis.</h4>
+      <ul>
+        <h3>Sales</h3>
+        <li>Remedy sales lows due to seasonal fluctuations in January and February by increasing marketing campaigns during these low-sales periods.</li>
+          <ul><li>The average sales growth year-over-year for January is -12%, and for February, it is -23%.</li>
+          <li>Average Sales Growth for Q4 post-pandemic is -17%.</li></ul>
+        <li>Win back lost customers after the pandemic boom by implementing marketing or promotional campaigns for returning customers.</li>
+          <ul><li>The average year-over-year sales growth post-pandemic is -28%.</li>
+          <li>The average year-over-year order count growth post-pandemic is -17%.</li></ul>
+        <h3>Products</h3>
+        <li>Optimize inventory for high-performing products year-round.</li>
+          <ul><li>The 27-Inch 4K Gaming Monitor is the strongest product in terms of sales, approaching $10 million over four years.</li>
+          <li>The Apple AirPods are also a strong-selling product, with close to $8 million in sales over four years.</li></ul>
+        <li>Deprioritize inventory for low-performing products.</li>
+          <ul><li>Bose SoundSport Headphones and Apple iPhone constitute for nearly 0% of total purchase orders.</li></ul>
+        <li>Investigate sales for MacBook Air laptops.</li>
+          <ul><li>MacBook Air Laptops rank third in sales revenue (22%) but fall in the bottom half for number of purchase orders (3.67%).</li></ul>
+        <h3>Loyalty Program</h3>
+        <li>Continue a strong push for the loyalty program to boost and stabilize sales, as loyalty members are more likely to return as customers and purchase high-priced items.</li>
+          <ul><li> Loyalty Member AOV grew 18% from 2019 to 2022</li>
+            <li>Loyalty members spent $31 more on average than non-loyalty members in 2022.</li></ul>
+        <li>Offer incentives for loyalty members to target purchases of MacBook Air laptops.</li>
+          <ul><li>Loyalty members align with the ideal user persona for MacBook Air laptops, as they purchase high-priced products, are more likely to return as customers, and rarely make returns.</li></ul>
+        <h3>Refund Rates</h3>
+        <li>Streamline product quality control for for high AOV products as as they are the most frequently returned products.</li>
+          <ul><li>Macbook Air Laptops had an average return rate of 14% from 2019 to 2021.</li>
+          <li>Thinkpad Laptops also had an average return rate of 14% from 2019 to 2021.</li></ul>
+        <h3>Regions</h3>
+        <li>Maximize market share in North America, as this region dominates sales across all TechSphere products.</li>
+          <ul><li>52% of product sales were in the North American region.</li></ul>
+        <li>Diversify the portfolio in the Latin American region by expanding localized product offerings, sales channels, and market reach to increase sales revenue and purchase orders.</li>
+          <ul><li>Only 6% of product sales were in the Latin American region.</li></ul>
+        <li>Continue to streamline high-performing products.</li>
+          <ul><li> The demand for the 27-inch 4K Gaming Monitor and Apple AirPods headphones remains high relative to the region.</li></ul>
+      </ul>
+</table>

@@ -65,7 +65,7 @@
             <strong>Quarterly Insights & Seasonal Trends</strong>
             <ul>
               <li>Q3 and Q4 of each year typically show strong performance, likely due to seasonal shopping trends and marketing efforts.</li>
-              <li>Q1 2022 started well ($704K in January), but revenue quickly dropped, signaling an overall weak performance compared to previous years.</li>
+              <li>Q1  started well (34M$ in January), but revenue quickly dropped, signaling an overall weak retention rate over the rest of the year.</li>
             </ul>
           </li>
           <li>
@@ -133,9 +133,10 @@
       </ol>
       <strong>Average Order Value</strong>
       <ol>
-        <li> Sharp AOV Surge in 2020, followed by a Decline in 2021-2022 <ul>
+        <li> Sharp increase in average order value (AOV) apart from March, followed by a sharp decline in November. <ul>
             <li>
-              <strong>2020 saw the highest AOV growth, peaking at $322 (Oct 2020)</strong> compared to $246 (Nov 2019), aligning with pandemic-driven eCommerce boom.
+              <strong>The highest growth in average order value (AOV) was recorded in May</strong> ,
+                  peaking at $1,850  and remaining steady until an abrupt drop to $1,550 in Q4 (November–December).
             </li>
             <li>Post-pandemic correction (2021-2022) led to a steady decline, with AOV in 2022 returning close to 2019 levels (~$234-$237).</li>
           </ul>

@@ -228,41 +228,12 @@
             <li>Each quarter in 2022 experienced a downward trend.</li>
             <li>Q1: Started fairly strong ($704K in Jan) but lower than 2021.</li>
             <li>Q2 - Q3: Dropped further, below $500K per month and continued decline through Q3 with Aug/Sep below $400K.</li>
-            <li>Q4: <strong>Historic low, indicating critical demand issues</strong>. This suggests customer retention, pricing, or product-market fit issues. TechSphere may need to re-strategize through marketing, promotions, or change in pricing. </li>
+            <li>Q4: <strong>Historic low, indicating critical demand issues</strong>. This suggests customer retention, pricing, 
+                or product-market fit issues. TechSphere may need to re-strategize through marketing, promotions, or change in pricing. </li>
           </ul>
         </li>
-      </ol>
-      <strong>Average Order Value</strong>
-      <ol>
-        <li> Sharp AOV Surge in 2020, followed by a Decline in 2021-2022 <ul>
-            <li>
-              <strong>2020 saw the highest AOV growth, peaking at $322 (Oct 2020)</strong> compared to $246 (Nov 2019), aligning with pandemic-driven eCommerce boom.
-            </li>
-            <li>Post-pandemic correction (2021-2022) led to a steady decline, with AOV in 2022 returning close to 2019 levels (~$234-$237).</li>
-          </ul>
-        </li>
-        <li>2022 AOV is lower and relatively more volatile compared to previous years <ul>
-            <li>
-              <strong>2022 AOV fluctuates significantly </strong> between $216 (Oct) and $256 (Sep).
-            </li>
-            <li>Q4 2022 AOV is significantly lower than Q4 2020 & 2021, meaning holiday spending per order has dropped.</li>
-          </ul>
-        </li>
-        <li>Long-Term AOV Decline May Indicate Price Sensitivity <ul>
-            <li>From a peak of ~$322 in 2020, AOV steadily dropped to ~$234 in 2022 which is 27% drop.</li>
-            <li>Over the span of four years, the change in AOV growth has been relatively constant, indicating minimal changes in product pricing (as illustrated in Sales Growth vs. AOV Growth below).</li>
-            <li>AOV in 2022 is likely not a major factor in the decline of sales that year.</li>
-          </ul>
-        </li>
-      </ol>
-      <strong>Order Count</strong>
-      <ol>
-        <li>Order counts closely follow sales revenue, indicating that the decline in revenue is primarily due to <strong>fewer orders</strong> rather than a drop in AOV in 2022. </li>
-        <li>Total orders <strong>dropped by 38%</strong> from 2021 to 2022. </li>
-        <li>The sales anamoly and decline <strong>started in mid-2022</strong>, with orders falling from 2,034 in July to just 825 in October. </li>
-        <li>While people are spending slightly less per order, the <strong>decline in order frequency</strong> directly results in lower sales revenue. </li>
-      </ol>
-    </td>
+      
+   
   </tr>
 </table>
 
@@ -302,50 +273,51 @@
   </tr>
 </table>
 
-<!-- <table>
-  <tr>
-    <td width="700" border="0"><h1>Recommendations</h1>
-    <h4>Based on the uncovered insights, here are actionable items that TechSphere can take away from our analysis.</h4></td>
-    <td width="400" border="0"><div align="right">
-      <img width="192" src="https://res.cloudinary.com/dxctpvd8v/image/upload/v1739421238/TechShere_Logo_CamilingJS" />
-    </div></td>
-  </tr>
-</table> -->
+
+
+</table>
 <table align="center">
-    <h1>Recommendations</h1>
-    <h4>Based on the uncovered insights, here are actionable items that TechSphere can take away from our analysis.</h4>
-      <ul>
-        <h3>Sales</h3>
-        <li>Remedy sales lows due to seasonal fluctuations in January and February by increasing marketing campaigns during these low-sales periods.</li>
-          <ul><li>The average sales growth year-over-year for January is -12%, and for February, it is -23%.</li>
-          <li>Average Sales Growth for Q4 post-pandemic is -17%.</li></ul>
-        <li>Win back lost customers after the pandemic boom by implementing marketing or promotional campaigns for returning customers.</li>
-          <ul><li>The average year-over-year sales growth post-pandemic is -28%.</li>
-          <li>The average year-over-year order count growth post-pandemic is -17%.</li></ul>
-        <h3>Products</h3>
-        <li>Optimize inventory for high-performing products year-round.</li>
-          <ul><li>The 27-Inch 4K Gaming Monitor is the strongest product in terms of sales, approaching $10 million over four years.</li>
-          <li>The Apple AirPods are also a strong-selling product, with close to $8 million in sales over four years.</li></ul>
-        <li>Deprioritize inventory for low-performing products.</li>
-          <ul><li>Bose SoundSport Headphones and Apple iPhone constitute for nearly 0% of total purchase orders.</li></ul>
-        <li>Investigate sales for MacBook Air laptops.</li>
-          <ul><li>MacBook Air Laptops rank third in sales revenue (22%) but fall in the bottom half for number of purchase orders (3.67%).</li></ul>
-        <h3>Loyalty Program</h3>
-        <li>Continue a strong push for the loyalty program to boost and stabilize sales, as loyalty members are more likely to return as customers and purchase high-priced items.</li>
-          <ul><li> Loyalty Member AOV grew 18% from 2019 to 2022</li>
-            <li>Loyalty members spent $31 more on average than non-loyalty members in 2022.</li></ul>
-        <li>Offer incentives for loyalty members to target purchases of MacBook Air laptops.</li>
-          <ul><li>Loyalty members align with the ideal user persona for MacBook Air laptops, as they purchase high-priced products, are more likely to return as customers, and rarely make returns.</li></ul>
-        <h3>Refund Rates</h3>
-        <li>Streamline product quality control for for high AOV products as as they are the most frequently returned products.</li>
-          <ul><li>Macbook Air Laptops had an average return rate of 14% from 2019 to 2021.</li>
-          <li>Thinkpad Laptops also had an average return rate of 14% from 2019 to 2021.</li></ul>
-        <h3>Regions</h3>
-        <li>Maximize market share in North America, as this region dominates sales across all TechSphere products.</li>
-          <ul><li>52% of product sales were in the North American region.</li></ul>
-        <li>Diversify the portfolio in the Latin American region by expanding localized product offerings, sales channels, and market reach to increase sales revenue and purchase orders.</li>
-          <ul><li>Only 6% of product sales were in the Latin American region.</li></ul>
-        <li>Continue to streamline high-performing products.</li>
-          <ul><li> The demand for the 27-inch 4K Gaming Monitor and Apple AirPods headphones remains high relative to the region.</li></ul>
-      </ul>
+  <tr>
+    <h1 align="center">Recommendations</h1>
+    <table align="center">
+    
+</table>
+    <table>
+      <tr>
+        <td>
+          <ul>
+            Based on the uncovered insights, here are actionable items that VISTARA can take away from our analysis.
+            <h3> Customer Acquisition & Cohorts</h3>
+            <li>Investigate and fix the systemic retention collapse at the July → August 2024 transition</li>
+            <li>The May cohort fell from 53.9% (July) to 1.0% (August); June fell from 48.7% to 2.6% over the same step</li>
+                <li>Reverse-engineer and replicate the January acquisition motion — the only cohort that produced durable customers</li>
+              <li>January acquired 4,382 customers and held 58–63% retention for six consecutive months</li>
+              <li>Rebuild a repeatable acquisition channel; new-customer inflow has effectively stopped since April</li>
+              <h3>Customer Segmentation (RFM) </h3>
+              <li>Make Champion retention the top budget priority </li>
+              <li>Champions are 27.1% of buyers (1,916 customers) yet generate 76.4% of net revenue</li>
+              <li>Together with Loyal Customers, 39.9% of customers produce 91.1% of revenue</li>
+              <li>A Champion spends 2.8× the base average and orders 34× more often than a Hibernating customer</li>
+              <li>Aim reactivation spend at At Risk, not Hibernating</li>
+              <li> At Risk (412 customers) are proven repeat buyers: avg 4.4 past orders and ~13,600 MXN spend</li>
+              <li> Hibernating average 1.5 orders and ~4,600 MXN — essentially one-and-done.</li>
+              <li>Per customer, an At Risk buyer is worth ~3× a Hibernating one</li>
+              <h3>Churn & Reactivation</h3>
+              <li>Anchor retention programs on the active 30% of the base, where nearly all value sits</li>
+              <li>The Active band (≤90 days) is 30.4% of buyers but holds 76.0% of historical revenue.</li>
+              <li>Add a post-first-purchase onboarding sequence — the largest single loss is the second purchase that never happens</li>
+              <h3>Products / Categories</h3>
+              <li>Prioritize inventory for the two premium categories that carry the business — Winter Wear and Formal Wear.</li>
+              <li>Together they generate 61.9% of net revenue from only ~40% of order volume.</li>
+              <li>Monetize the high-traffic Casual Wear category — it draws the most customers but the least revenue per sale</li>
+              <li>Casual Wear is the most-purchased category</li>
+              <li>Opportunity: bundling, premium lines, or add-ons to lift AOV on the category customers already choose most</li>
+              <li>Re-evaluate Sportswear and Beachwear, which under-deliver on revenue relative to their volume</li>
+              <li>Sportswear: 20.0% of units but only 13.2% of revenue (avg price 897 MXN).</li>
+              <li>Beachwear: smallest on every metric — 10.0% of volume, 5.6% of revenue (22.0M MXN), lowest price (761 MXN); a candidate for lean</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+  </tr>
 </table>

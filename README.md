@@ -71,9 +71,9 @@
           <li>
             <strong>Key Takeaways & Recommendations</strong>
             <ul>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li>Investigate the causes of the sharp drop in new customers starting in Q1 (e.g., market changes, competition, internal factors).</li>
+              <li>Prioritize high-performance periods (e.g., the fourth quarter) to refine marketing and sales strategies.</li>
+              <li>Reevaluate the business strategy for 2025, primarily addressing the lack of new customers by focusing on pricing and promotions to regain momentum..</li>
             </ul>
           </li>
         </ol>
@@ -283,12 +283,13 @@
     </td>
     <td valign="top" width="500">
       <ul>
+        <li>At the end of the year<ul>
         <li>At the end of the year 52.6% of customers (3,718) are Churned., yet they account for just 18.6% of net revenue. 
             The Active 30.4% (2,144 customers) hold 76.0%. Churn has hollowed out the base by headcount, but value stays concentrated in the recent, active core</li>
-        <li>Coincidentally, these two items have the highest AOV and are TechSphere's most expensive products.</li>
-        <li>The least returned product is the Bose SoundSport Headphones, with a return rate of 0%, followed by the Samsung Charging Cable Pack, with an average return rate of 2%.</li>
-        <li>However, the Bose SoundSport Headphones are the least frequently purchased product, and the Samsung Charging Cable Pack ranks in the bottom half of purchase orders.</li>
-        <li>For 2022, there were no recorded returns for any product.</li>
+             </ul>
+        <li>Churn is gender neutral.<ul>
+          <li>Women are ~55% of the base and men ~45%, and that same ratio repeats inside every churn tier</li>
+            </ul>
       </ul>
     </td>
   </tr>

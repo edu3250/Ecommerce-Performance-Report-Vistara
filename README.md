@@ -37,7 +37,8 @@
       <h1 align="center">Executive Summary</h1>
       <h3 align="center">BI Dashboard (2024 Period)</h3>
       <div align="center">
-        <img width="1427" height="807" alt="image" src="https://github.com/user-attachments/assets/024bd784-b952-4a17-a8d4-935f01f3769c" />
+        <img width="1430" height="807" alt="image" src="https://github.com/user-attachments/assets/2d07c2f8-e35c-4dea-9fc6-7afc8c98154f" />
+        <img width="1141" height="645" alt="image" src="https://github.com/user-attachments/assets/8b38d219-cda6-429b-9360-a8d607fbc8f4" />
       </div>
       <td width="460" valign="top">
         <ol>
@@ -138,7 +139,7 @@
               <strong>The highest growth in average order value (AOV) was recorded in May</strong> ,
                   peaking at $1,850  and remaining steady until an abrupt drop to $1,550 in Q4 (November–December).
             </li>
-            <li>Post-pandemic correction (2021-2022) led to a steady decline, with AOV in 2022 returning close to 2019 levels (~$234-$237).</li>
+            <li>a.</li>
           </ul>
         </li>
         <li>2022 AOV is lower and relatively more volatile compared to previous years <ul>

@@ -272,6 +272,27 @@
     </table>
   </tr>
 </table>
+<table align="center">
+  <h1 align="center">Churn Analysis</h1>
+  <tr>
+    <td width="500">
+       <div valign="top" align="center">
+      <h3>Clients by Churn Status</h3>
+      <img width="400" height="353" alt="image" src="https://github.com/user-attachments/assets/0065a28d-76b7-41c9-b830-ce92c14ee804" />
+    </div>
+    </td>
+    <td valign="top" width="500">
+      <ul>
+        <li>At the end of the year 52.6% of customers (3,718) are Churned., yet they account for just 18.6% of net revenue. 
+            The Active 30.4% (2,144 customers) hold 76.0%. Churn has hollowed out the base by headcount, but value stays concentrated in the recent, active core</li>
+        <li>Coincidentally, these two items have the highest AOV and are TechSphere's most expensive products.</li>
+        <li>The least returned product is the Bose SoundSport Headphones, with a return rate of 0%, followed by the Samsung Charging Cable Pack, with an average return rate of 2%.</li>
+        <li>However, the Bose SoundSport Headphones are the least frequently purchased product, and the Samsung Charging Cable Pack ranks in the bottom half of purchase orders.</li>
+        <li>For 2022, there were no recorded returns for any product.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 
 
@@ -289,32 +310,32 @@
             Based on the uncovered insights, here are actionable items that VISTARA can take away from our analysis.
             <h3> Customer Acquisition & Cohorts</h3>
             <li>Investigate and fix the systemic retention collapse at the July → August 2024 transition</li>
-            <li>The May cohort fell from 53.9% (July) to 1.0% (August); June fell from 48.7% to 2.6% over the same step</li>
-                <li>Reverse-engineer and replicate the January acquisition motion — the only cohort that produced durable customers</li>
-              <li>January acquired 4,382 customers and held 58–63% retention for six consecutive months</li>
-              <li>Rebuild a repeatable acquisition channel; new-customer inflow has effectively stopped since April</li>
-              <h3>Customer Segmentation (RFM) </h3>
-              <li>Make Champion retention the top budget priority </li>
-              <li>Champions are 27.1% of buyers (1,916 customers) yet generate 76.4% of net revenue</li>
-              <li>Together with Loyal Customers, 39.9% of customers produce 91.1% of revenue</li>
-              <li>A Champion spends 2.8× the base average and orders 34× more often than a Hibernating customer</li>
-              <li>Aim reactivation spend at At Risk, not Hibernating</li>
-              <li> At Risk (412 customers) are proven repeat buyers: avg 4.4 past orders and ~13,600 MXN spend</li>
-              <li> Hibernating average 1.5 orders and ~4,600 MXN — essentially one-and-done.</li>
-              <li>Per customer, an At Risk buyer is worth ~3× a Hibernating one</li>
-              <h3>Churn & Reactivation</h3>
-              <li>Anchor retention programs on the active 30% of the base, where nearly all value sits</li>
-              <li>The Active band (≤90 days) is 30.4% of buyers but holds 76.0% of historical revenue.</li>
-              <li>Add a post-first-purchase onboarding sequence — the largest single loss is the second purchase that never happens</li>
-              <h3>Products / Categories</h3>
-              <li>Prioritize inventory for the two premium categories that carry the business — Winter Wear and Formal Wear.</li>
-              <li>Together they generate 61.9% of net revenue from only ~40% of order volume.</li>
-              <li>Monetize the high-traffic Casual Wear category — it draws the most customers but the least revenue per sale</li>
-              <li>Casual Wear is the most-purchased category</li>
-              <li>Opportunity: bundling, premium lines, or add-ons to lift AOV on the category customers already choose most</li>
-              <li>Re-evaluate Sportswear and Beachwear, which under-deliver on revenue relative to their volume</li>
-              <li>Sportswear: 20.0% of units but only 13.2% of revenue (avg price 897 MXN).</li>
-              <li>Beachwear: smallest on every metric — 10.0% of volume, 5.6% of revenue (22.0M MXN), lowest price (761 MXN); a candidate for lean</li>
+                <ul><li>The May cohort fell from 53.9% (July) to 1.0% (August); June fell from 48.7% to 2.6% over the same step</li></ul>
+            <li>Reverse-engineer and replicate the January acquisition motion — the only cohort that produced durable customers</li>
+                <ul><li>January acquired 4,382 customers and held 58–63% retention for six consecutive months</li></ul>
+                <ul><li>Rebuild a repeatable acquisition channel; new-customer inflow has effectively stopped since April</li></ul>
+             <h3>Customer Segmentation (RFM) </h3>
+            <li>Make Champion retention the top budget priority </li>
+                <ul><li>Champions are 27.1% of buyers (1,916 customers) yet generate 76.4% of net revenue</li></ul>
+                <ul><li>Together with Loyal Customers, 39.9% of customers produce 91.1% of revenue</li></ul>
+                <ul><li>A Champion spends 2.8× the base average and orders 34× more often than a Hibernating customer</li></ul>
+            <li>Aim reactivation spend at At Risk, not Hibernating</li>
+                <ul><li> At Risk (412 customers) are proven repeat buyers: avg 4.4 past orders and ~13,600 MXN spend</li></ul>
+                <ul><li> Hibernating average 1.5 orders and ~4,600 MXN — essentially one-and-done.</li></ul>
+                <ul><li>Per customer, an At Risk buyer is worth ~3× a Hibernating one</li></ul>
+            <h3>Churn & Reactivation</h3>
+            <li>Anchor retention programs on the active 30% of the base, where nearly all value sits</li>
+                <ul><li>The Active band (≤90 days) is 30.4% of buyers but holds 76.0% of historical revenue.</li></ul>
+                <ul><li>Add a post-first-purchase onboarding sequence — the largest single loss is the second purchase that never happens</li></ul>
+            <h3>Products / Categories</h3>
+            <li>Prioritize inventory for the two premium categories that carry the business — Winter Wear and Formal Wear.</li>
+                <ul><li>Together they generate 61.9% of net revenue from only ~40% of order volume.</li></ul>
+            <li>Monetize the high-traffic Casual Wear category — it draws the most customers but the least revenue per sale</li>
+                <ul><li>Casual Wear is the most-purchased category</li></ul>
+                <ul><li>Opportunity: bundling, premium lines, or add-ons to lift AOV on the category customers already choose most</li></ul>
+            <li>Re-evaluate Sportswear and Beachwear, which under-deliver on revenue relative to their volume</li>
+                <ul><li>Sportswear: 20.0% of units but only 13.2% of revenue (avg price 897 MXN).</li></ul>
+                <ul><li>Beachwear: smallest on every metric — 10.0% of volume, 5.6% of revenue (22.0M MXN), lowest price (761 MXN); a candidate for lean</li></ul>
           </ul>
         </td>
       </tr>

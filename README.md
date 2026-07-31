@@ -111,9 +111,10 @@
       <strong>Sales Revenue</strong>
       <ol>
         <li>December Peak — Q4 Concentration Defines the Annual Revenue Profile <ul>
-            <li>December recorded the highest monthly revenue of the year (~$44M). </li>
+            <li>December recorded the highest monthly revenue of the year (~$44M)-21% more than the previous month (34M) </li>
             <li>Confirming Q4 as the primary revenue driver. This concentration reflects the Champions segment's sustained activity through December, a tier that carries 
                 a 50x purchase weight relative to baseline buyers. </li>
+            <li>The growth is directly linked to the increase in the number of orders during the corresponding period (up 29%), rising from 17,000 to 23,000.</li>
           </ul>
         </li>
         <li>Mid-Year Stability Masks a Structural Shift <ul>

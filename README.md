@@ -121,15 +121,11 @@
             <li>From February through October, monthly revenue holds relatively stable in the $30–34M range. As lower-value tiers exit their active purchase windows the total order 
                 count declines while per-order value rises. Revenue remains stable not because of consistent volume, but because higher-value segments progressively absorb a larger 
                 share of transactions. </li>
-            <li>.</li>
-            <li> </li>
           </ul>
         </li>
-        <li>Declining Growth Throughout 2022 – Indicating Weak Consumer Demand <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li> </li>
+        <li>May is the second-highest revenue month. <ul>
+            <li>A seasonal peak in May, resulting in a figure of 33.8M, confirms that promotional periods are the most important times to focus sales efforts.    </li>
+            <li>where there were 22% more female customers, and they purchased 20% more than men (14k items purchased)</li>
           </ul>
         </li>
       </ol>
@@ -143,17 +139,19 @@
             <li>a.</li>
           </ul>
         </li>
-        <li>2022 AOV is lower and relatively more volatile compared to previous years <ul>
+        <li>January situation <ul>
             <li>
-              <strong>2022 AOV fluctuates significantly </strong> between $216 (Oct) and $256 (Sep).
+              89.4% of customers who made their first purchase in January made more than one purchase; 
+                this is a very strong figure compared to the annual average, which shows that only 75% of customers 
+                who buy once return to make another purchase..
             </li>
             <li>Q4 2022 AOV is significantly lower than Q4 2020 & 2021, meaning holiday spending per order has dropped.</li>
           </ul>
         </li>
-        <li>Long-Term AOV Decline May Indicate Price Sensitivity <ul>
-            <li>From a peak of ~$322 in 2020, AOV steadily dropped to ~$234 in 2022 which is 27% drop.</li>
-            <li>Over the span of four years, the change in AOV growth has been relatively constant, indicating minimal changes in product pricing (as illustrated in Sales Growth vs. AOV Growth below).</li>
-            <li>AOV in 2022 is likely not a major factor in the decline of sales that year.</li>
+        <li>November Dip <ul>
+            <li>A visible AOV contraction in November aligns with El Buen Fin. 
+                Discount-driven purchases compress per-order value even among high-frequency customers, pulling AOV to its second-lowest 
+                point of the year (~$1,550). December's immediate recovery to ~$1,820 confirms this as a transient promotional effect.</li>
           </ul>
         </li>
       </ol>

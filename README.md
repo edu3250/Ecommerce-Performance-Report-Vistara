@@ -142,13 +142,12 @@
         <li>January situation <ul>
             <li>
               89.4% of customers who made their first purchase in January made more than one purchase; 
-                this is a very strong figure compared to the annual average, which shows that only 75% of customers 
+                this is a very strong figure compared to the annual average, which shows that only 60% of customers 
                 who buy once return to make another purchase..
             </li>
-            <li>Q4 2022 AOV is significantly lower than Q4 2020 & 2021, meaning holiday spending per order has dropped.</li>
           </ul>
         </li>
-        <li>November Dip <ul>
+        <li>November Peak<ul>
             <li>A visible AOV contraction in November aligns with El Buen Fin. 
                 Discount-driven purchases compress per-order value even among high-frequency customers, pulling AOV to its second-lowest 
                 point of the year (~$1,550). December's immediate recovery to ~$1,820 confirms this as a transient promotional effect.</li>
@@ -157,10 +156,12 @@
       </ol>
       <strong>Order Count</strong>
       <ol>
-        <li>Order counts closely follow sales revenue, indicating that the decline in revenue is primarily due to <strong>fewer orders</strong> rather than a drop in AOV in 2022. </li>
-        <li>Total orders <strong>dropped by 38%</strong> from 2021 to 2022. </li>
-        <li>The sales anamoly and decline <strong>started in mid-2022</strong>, with orders falling from 2,034 in July to just 825 in October. </li>
-        <li>While people are spending slightly less per order, the <strong>decline in order frequency</strong> directly results in lower sales revenue. </li>
+        <li>The number of orders closely tracks sales revenue, indicating that the revenue peak in November is primarily driven by an increase in order volume, 
+            despite the drop in average order value (AOV). </li>
+        <li>The number of orders remained constant (17K) during Q2 and Q3, with peaks associated with seasonal trends.
+            Order count and AOV move in opposite directions only in the year's cheap-basket surges: 
+            January's acquisition wave (small first-time orders) and November's discount event both spiked volume while pushing AOV to its annual lows — 1,597 and 1,555 MXN </li>
+        <li>More Orders Don't Lower the Ticket — More Small Orders Do </li>
       </ol>
     </td>
   </tr>

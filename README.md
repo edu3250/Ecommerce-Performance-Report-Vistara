@@ -35,7 +35,11 @@
   <tr>
     <div width="920">   
       <h1 align="center">Executive Summary</h1>
-      <h3 align="center">BI Dashboard (2024 Period)</h3>
+      <h3 align="center">
+      <a href="https://github.com/edu3250/Vistara/blob/main/vistara.pbix">
+        BI Dashboard (2024 Period)
+        </a>
+      </h3>
       <div align="center">
         <img width="1430" height="807" alt="image" src="https://github.com/user-attachments/assets/2d07c2f8-e35c-4dea-9fc6-7afc8c98154f" />
         <img width="1141" height="645" alt="image" src="https://github.com/user-attachments/assets/8b38d219-cda6-429b-9360-a8d607fbc8f4" />
@@ -47,7 +51,7 @@
             <ul>
               <li>Q4 2024 was the strongest period, with december recording the highest montlhy revenue of the year at approximately $44M.</li>
               <li>Q1 saw the highest volume of new customer acquisition. Revenue grew progressively through the year as repeat purchases accumulated, particularly among Champions and Loyal customers.</li>
-              <li>ssss</li>
+              <li>May ($33.8M) also maintained strong sales, though a downward trend started afterward</li>
             </ul>
           </li>
           <li>
@@ -55,7 +59,6 @@
             <ul>
               <li>A small group of customers. 27% of the customers (champions) generate 76% of total revenue.The remaining customer base contributes meaningfully in Q1 and Q2 but shows
                   declining activity through the second half of the year.</li>
-              <li>ssss.</li>
             </ul>
           </li>
         </ol>

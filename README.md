@@ -279,15 +279,13 @@
     </div>
     </td>
     <td valign="top" width="500">
-      <ul>
-        <li>At the end of the year<ul>
+        <ul>
+        <li>The churn rate increased by approximately 8.7% per month: from 0% to 52.6% over six months.</li>
         <li>At the end of the year 52.6% of customers (3,718) are Churned., yet they account for just 18.6% of net revenue. 
             The Active 30.4% (2,144 customers) hold 76.0%. Churn has hollowed out the base by headcount, but value stays concentrated in the recent, active core</li>
-             </ul>
-        <li>Churn is gender neutral.<ul>
-          <li>Women are ~55% of the base and men ~45%, and that same ratio repeats inside every churn tier</li>
-            </ul>
-      </ul>
+        <li>Churn is gender neutral.
+            Women are ~55% of the base and men ~45%, and that same ratio repeats inside every churn tier</li>
+        </ul>
     </td>
   </tr>
 </table>
@@ -305,7 +303,7 @@
       <tr>
         <td>
           <ul>
-            Based on the uncovered insights, here are actionable items that VISTARA can take away from our analysis.
+            <h4>Based on the uncovered insights, here are actionable items that VISTARA can take away from our analysis.</h4>
             <h3> Customer Acquisition & Cohorts</h3>
             <li>Investigate and fix the systemic retention collapse at the July → August 2024 transition</li>
                 <ul><li>The May cohort fell from 53.9% (July) to 1.0% (August); June fell from 48.7% to 2.6% over the same step</li></ul>

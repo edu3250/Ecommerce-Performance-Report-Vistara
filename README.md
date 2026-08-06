@@ -156,6 +156,8 @@
       </ol>
       <strong>Order Count</strong>
       <ol>
+        <li>Order count follows the inverse of AOV throughout 2024: highest in January and declining progressively through Q4 as lower-value segments exit. 
+            Yet revenue grows — confirming that VISTARA's performance is quality-driven rather than volume-driven</li>
         <li>The number of orders closely tracks sales revenue, indicating that the revenue peak in November is primarily driven by an increase in order volume, 
             despite the drop in average order value (AOV). </li>
         <li>The number of orders remained constant (17K) during Q2 and Q3, with peaks associated with seasonal trends.

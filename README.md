@@ -37,7 +37,8 @@
       <h1 align="center">Executive Summary</h1>
       <h3 align="center">BI Dashboard (2024 Period)</h3>
       <div align="center">
-        <img width="1427" height="807" alt="image" src="https://github.com/user-attachments/assets/024bd784-b952-4a17-a8d4-935f01f3769c" />
+        <img width="1430" height="807" alt="image" src="https://github.com/user-attachments/assets/2d07c2f8-e35c-4dea-9fc6-7afc8c98154f" />
+        <img width="1141" height="645" alt="image" src="https://github.com/user-attachments/assets/8b38d219-cda6-429b-9360-a8d607fbc8f4" />
       </div>
       <td width="460" valign="top">
         <ol>
@@ -52,7 +53,7 @@
           <li>
             <strong>Where Revenue Comes From</strong>
             <ul>
-              <li>A small group of customers. 20% of the customers (champions) generate 76% of total revenue.The remaining customer base contributes meaningfully in Q1 and Q2 but shows
+              <li>A small group of customers. 27% of the customers (champions) generate 76% of total revenue.The remaining customer base contributes meaningfully in Q1 and Q2 but shows
                   declining activity through the second half of the year.</li>
               <li>ssss.</li>
             </ul>
@@ -65,15 +66,15 @@
             <strong>Quarterly Insights & Seasonal Trends</strong>
             <ul>
               <li>Q3 and Q4 of each year typically show strong performance, likely due to seasonal shopping trends and marketing efforts.</li>
-              <li>Q1 2022 started well ($704K in January), but revenue quickly dropped, signaling an overall weak performance compared to previous years.</li>
+              <li>Q1  started well (34M$ in January), but revenue quickly dropped, signaling an overall weak retention rate over the rest of the year.</li>
             </ul>
           </li>
           <li>
             <strong>Key Takeaways & Recommendations</strong>
             <ul>
-              <li>Investigate the causes of the 2022 decline (e.g., market changes, competition, internal factors).</li>
-              <li>Leverage high-performing periods (e.g., Q3 and Q4 of strong years) to refine marketing and sales strategies.</li>
-              <li>Reassess business strategy for 2023, focusing on pricing, promotions, and customer engagement to regain momentum.</li>
+              <li>Investigate the causes of the sharp drop in new customers starting in Q1 (e.g., market changes, competition, internal factors).</li>
+              <li>Prioritize high-performance periods (e.g., the fourth quarter) to refine marketing and sales strategies.</li>
+              <li>Reevaluate the business strategy for 2025, primarily addressing the lack of new customers by focusing on pricing and promotions to regain momentum..</li>
             </ul>
           </li>
         </ol>
@@ -83,7 +84,7 @@
 </table>
 
 <h2 align="center">Dataset Structure and ERD (Entity relationship diagram)</h2>
-<body>The database structure as seen below consists of eight tables: orders, customers, products, dates, order details, returns, inventory and receipts with a total row count of 10,000 records.</body>
+<body>The database structure as seen below consists of eight tables: orders, customers, products, dates, order details, returns, inventory and receipts with a total of 220,000 records.</body>
 <div align="center">
   <img src="assets/erd.svg" alt="Vistara ERD Diagram · Mexico" width="900"/>
 </div>
@@ -110,56 +111,59 @@
       <strong>Sales Revenue</strong>
       <ol>
         <li>December Peak — Q4 Concentration Defines the Annual Revenue Profile <ul>
-            <li>December recorded the highest monthly revenue of the year (~$44M). </li>
+            <li>December recorded the highest monthly revenue of the year (~$44M)-21% more than the previous month (34M) </li>
             <li>Confirming Q4 as the primary revenue driver. This concentration reflects the Champions segment's sustained activity through December, a tier that carries 
                 a 50x purchase weight relative to baseline buyers. </li>
+            <li>The growth is directly linked to the increase in the number of orders during the corresponding period (up 29%), rising from 17,000 to 23,000.</li>
           </ul>
         </li>
         <li>Mid-Year Stability Masks a Structural Shift <ul>
             <li>From February through October, monthly revenue holds relatively stable in the $30–34M range. As lower-value tiers exit their active purchase windows the total order 
                 count declines while per-order value rises. Revenue remains stable not because of consistent volume, but because higher-value segments progressively absorb a larger 
                 share of transactions. </li>
-            <li>2021 Slight Slowdown: Sales remained high but started stabilizing, showing a decline from peak pandemic levels.</li>
-            <li>2022 Major Decline: A <strong>consistent drop in sales across all quarters</strong> suggests a post-pandemic correction, with inflation, lower consumer spending, or increased competition. </li>
           </ul>
         </li>
-        <li>Declining Growth Throughout 2022 – Indicating Weak Consumer Demand <ul>
-            <li>Each quarter in 2022 experienced a downward trend.</li>
-            <li>Q1: Started fairly strong ($704K in Jan) but lower than 2021.</li>
-            <li>Q2 - Q3: Dropped further, below $500K per month and continued decline through Q3 with Aug/Sep below $400K.</li>
-            <li>Q4: <strong>Historic low, indicating critical demand issues</strong>. This suggests customer retention, pricing, or product-market fit issues. TechSphere may need to re-strategize through marketing, promotions, or change in pricing. </li>
+        <li>May is the second-highest revenue month. <ul>
+            <li>A seasonal peak in May, resulting in a figure of 33.8M, confirms that promotional periods are the most important times to focus sales efforts.    </li>
+            <li>where there were 22% more female customers, and they purchased 20% more than men (14k items purchased)</li>
           </ul>
         </li>
       </ol>
       <strong>Average Order Value</strong>
       <ol>
-        <li> Sharp AOV Surge in 2020, followed by a Decline in 2021-2022 <ul>
+        <li> Sharp increase in average order value (AOV) apart from March, followed by a sharp decline in November. <ul>
             <li>
-              <strong>2020 saw the highest AOV growth, peaking at $322 (Oct 2020)</strong> compared to $246 (Nov 2019), aligning with pandemic-driven eCommerce boom.
+              <strong>The highest growth in average order value (AOV) was recorded in May</strong> ,
+                  peaking at $1,850  and remaining steady until an abrupt drop to $1,550 in Q4 (November–December).
             </li>
-            <li>Post-pandemic correction (2021-2022) led to a steady decline, with AOV in 2022 returning close to 2019 levels (~$234-$237).</li>
+            <li>a.</li>
           </ul>
         </li>
-        <li>2022 AOV is lower and relatively more volatile compared to previous years <ul>
+        <li>January situation <ul>
             <li>
-              <strong>2022 AOV fluctuates significantly </strong> between $216 (Oct) and $256 (Sep).
+              89.4% of customers who made their first purchase in January made more than one purchase; 
+                this is a very strong figure compared to the annual average, which shows that only 60% of customers 
+                who buy once return to make another purchase..
             </li>
-            <li>Q4 2022 AOV is significantly lower than Q4 2020 & 2021, meaning holiday spending per order has dropped.</li>
           </ul>
         </li>
-        <li>Long-Term AOV Decline May Indicate Price Sensitivity <ul>
-            <li>From a peak of ~$322 in 2020, AOV steadily dropped to ~$234 in 2022 which is 27% drop.</li>
-            <li>Over the span of four years, the change in AOV growth has been relatively constant, indicating minimal changes in product pricing (as illustrated in Sales Growth vs. AOV Growth below).</li>
-            <li>AOV in 2022 is likely not a major factor in the decline of sales that year.</li>
+        <li>November Peak<ul>
+            <li>A visible AOV contraction in November aligns with El Buen Fin. 
+                Discount-driven purchases compress per-order value even among high-frequency customers, pulling AOV to its second-lowest 
+                point of the year (~$1,550). December's immediate recovery to ~$1,820 confirms this as a transient promotional effect.</li>
           </ul>
         </li>
       </ol>
       <strong>Order Count</strong>
       <ol>
-        <li>Order counts closely follow sales revenue, indicating that the decline in revenue is primarily due to <strong>fewer orders</strong> rather than a drop in AOV in 2022. </li>
-        <li>Total orders <strong>dropped by 38%</strong> from 2021 to 2022. </li>
-        <li>The sales anamoly and decline <strong>started in mid-2022</strong>, with orders falling from 2,034 in July to just 825 in October. </li>
-        <li>While people are spending slightly less per order, the <strong>decline in order frequency</strong> directly results in lower sales revenue. </li>
+        <li>Order count follows the inverse of AOV throughout 2024: highest in January and declining progressively through Q4 as lower-value segments exit. 
+            Yet revenue grows — confirming that VISTARA's performance is quality-driven rather than volume-driven</li>
+        <li>The number of orders closely tracks sales revenue, indicating that the revenue peak in November is primarily driven by an increase in order volume, 
+            despite the drop in average order value (AOV). </li>
+        <li>The number of orders remained constant (17K) during Q2 and Q3, with peaks associated with seasonal trends.
+            Order count and AOV move in opposite directions only in the year's cheap-basket surges: 
+            January's acquisition wave (small first-time orders) and November's discount event both spiked volume while pushing AOV to its annual lows — 1,597 and 1,555 MXN </li>
+        <li>More Orders Don't Lower the Ticket — More Small Orders Do </li>
       </ol>
     </td>
   </tr>
@@ -197,18 +201,7 @@
       </td>
 </tr>
 </table>
-<table align="center">
-    <tr align="center">
-      <td width="1000" valign="top">
-      <h3>AOV Over Time (2019-2022)</h3>
-      <img width="450" src="https://res.cloudinary.com/dxctpvd8v/image/upload/v1740156855/AOV_Products_BarGraph_CamilingJS">
-    </td>
-    <td width="1000">
-      <h3>Product Sales Heat Map by Quarter</h3>
-      <img width="450" src="https://res.cloudinary.com/dxctpvd8v/image/upload/v1740646006/Sales_Heatmap_CamilingJS">
-    </td>
-  </tr>
-</table>
+
 </table>
 
 ## Cohort Analysis
@@ -220,344 +213,127 @@
     <td>
       <strong>Cohort Analysis</strong>
       <ol>
-        <li>Good opening <ul>
+        <li>Customer acquisition effectively stopped after April  <ul>
             <li>During the opening month, 4,382 new customers were registered, with a solid retention rate of 58–64% over the first six months; 
             in the subsequent period, the retention rate dropped to 35% over the course of six months. From the third quarter onwards, 
             the acquisition of new customers came to a complete halt, with only 12 to 38 new customers per month.</li>
           </ul>
         </li>
-        <li>Mid-Year Stability Masks a Structural Shift <ul>
+        <li>The greatest customer loss occurs between M1 and M3<ul>
             <li>From February through October, monthly revenue holds relatively stable in the $30–34M range. As lower-value tiers exit their active purchase windows the total order 
                 count declines while per-order value rises. Revenue remains stable not because of consistent volume, but because higher-value segments progressively absorb a larger 
                 share of transactions. </li>
-            <li>2021 Slight Slowdown: Sales remained high but started stabilizing, showing a decline from peak pandemic levels.</li>
-            <li>2022 Major Decline: A <strong>consistent drop in sales across all quarters</strong> suggests a post-pandemic correction, with inflation, lower consumer spending, or increased competition. </li>
           </ul>
         </li>
-        <li>Declining Growth Throughout 2022 – Indicating Weak Consumer Demand <ul>
-            <li>Each quarter in 2022 experienced a downward trend.</li>
-            <li>Q1: Started fairly strong ($704K in Jan) but lower than 2021.</li>
-            <li>Q2 - Q3: Dropped further, below $500K per month and continued decline through Q3 with Aug/Sep below $400K.</li>
-            <li>Q4: <strong>Historic low, indicating critical demand issues</strong>. This suggests customer retention, pricing, or product-market fit issues. TechSphere may need to re-strategize through marketing, promotions, or change in pricing. </li>
+        
+      
+   
+  </tr>
+</table>
+
+
+
+</table>
+<table align="center">
+  <tr>
+    <h1 align="center">RFM Segmentation</h1>
+    <table align="center">
+    <tr align="center">
+      <td width="1000">
+      <h3>Average Order Value by Loyalty Status</h3>
+      <img width="781" height="552" alt="image" src="https://github.com/user-attachments/assets/bc71cbf6-261d-4c22-96a6-91c0ef06a1c0" />
+    </td>
+    <td width="1000">
+      <h3>Number of Orders by Loyalty Status</h3>
+      <img width="706" height="500" alt="image" src="https://github.com/user-attachments/assets/392c8f4b-fcfb-4a98-81d4-4d37d0ee343f" />
+    </td>
+  </tr>
+</table>
+    <table>
+      <tr>
+        <td>
+          <ul>
+            <li>Revenue is concentrated dangerously in a single segment.Champions-27.1% of the active base (1,916 of 7,063 buyers) — generate 76.4% of all net spend.</li>
+            <li>The entire bottom 40% (Hibernating, At Risk, New) contributes about 4%. A Champion spends 2.8× the base average and buys 34× more often than a Hibernating customer</li>
+            <li>More than half the base is already gone. 52.6% of buyers are Churned  yet hold only 18.6% of historical spend, while the Active 30.4% hold 76.0%. the health of the business  
+            depents entirely of the champions tier</li>
+            <li>"At Risk" isthe right save target — "Hibernating" is mostly unrecoverable.At Risk (412 customers) are proven repeat buyers — avg 4.4 past orders and ~13,600 MXN spend 
+                — who have gone cold. Hibernating (2,290 customers, the single largest segment) averages 1.5 orders and ~4,600 MXN: essentially one-and-done. Per head, an At Risk customer 
+                is worth ~3× a Hibernating one</li>
           </ul>
-        </li>
-      </ol>
-      <strong>Average Order Value</strong>
-      <ol>
-        <li> Sharp AOV Surge in 2020, followed by a Decline in 2021-2022 <ul>
-            <li>
-              <strong>2020 saw the highest AOV growth, peaking at $322 (Oct 2020)</strong> compared to $246 (Nov 2019), aligning with pandemic-driven eCommerce boom.
-            </li>
-            <li>Post-pandemic correction (2021-2022) led to a steady decline, with AOV in 2022 returning close to 2019 levels (~$234-$237).</li>
-          </ul>
-        </li>
-        <li>2022 AOV is lower and relatively more volatile compared to previous years <ul>
-            <li>
-              <strong>2022 AOV fluctuates significantly </strong> between $216 (Oct) and $256 (Sep).
-            </li>
-            <li>Q4 2022 AOV is significantly lower than Q4 2020 & 2021, meaning holiday spending per order has dropped.</li>
-          </ul>
-        </li>
-        <li>Long-Term AOV Decline May Indicate Price Sensitivity <ul>
-            <li>From a peak of ~$322 in 2020, AOV steadily dropped to ~$234 in 2022 which is 27% drop.</li>
-            <li>Over the span of four years, the change in AOV growth has been relatively constant, indicating minimal changes in product pricing (as illustrated in Sales Growth vs. AOV Growth below).</li>
-            <li>AOV in 2022 is likely not a major factor in the decline of sales that year.</li>
-          </ul>
-        </li>
-      </ol>
-      <strong>Order Count</strong>
-      <ol>
-        <li>Order counts closely follow sales revenue, indicating that the decline in revenue is primarily due to <strong>fewer orders</strong> rather than a drop in AOV in 2022. </li>
-        <li>Total orders <strong>dropped by 38%</strong> from 2021 to 2022. </li>
-        <li>The sales anamoly and decline <strong>started in mid-2022</strong>, with orders falling from 2,034 in July to just 825 in October. </li>
-        <li>While people are spending slightly less per order, the <strong>decline in order frequency</strong> directly results in lower sales revenue. </li>
-      </ol>
+        </td>
+      </tr>
+    </table>
+  </tr>
+</table>
+<table align="center">
+  <h1 align="center">Churn Analysis</h1>
+  <tr>
+    <td width="500">
+       <div valign="top" align="center">
+      <h3>Clients by Churn Status</h3>
+      <img width="400" height="353" alt="image" src="https://github.com/user-attachments/assets/0065a28d-76b7-41c9-b830-ce92c14ee804" />
+    </div>
+    </td>
+    <td valign="top" width="500">
+      <ul>
+        <li>At the end of the year<ul>
+        <li>At the end of the year 52.6% of customers (3,718) are Churned., yet they account for just 18.6% of net revenue. 
+            The Active 30.4% (2,144 customers) hold 76.0%. Churn has hollowed out the base by headcount, but value stays concentrated in the recent, active core</li>
+             </ul>
+        <li>Churn is gender neutral.<ul>
+          <li>Women are ~55% of the base and men ~45%, and that same ratio repeats inside every churn tier</li>
+            </ul>
+      </ul>
     </td>
   </tr>
 </table>
 
-## Executive Summary
 
-<div align="center">
 
-*Page 1 — Executive KPIs Dashboard*
-
-</div>
-
-| KPI | Value | Trend |
-|-----|-------|-------|
-| Total Net Revenue (1Y) | ~$1.72M / month avg | ▲ Peaks in Q1 and Q4 |
-| MoM Revenue Growth | Tracked dynamically | Compared to prior month |
-| Avg Spend per Customer | Calculated by period | Period-filtered |
-| Churn Rate | Dynamic by period | Inverted indicator (↓ = good) |
-| Total Registered Customers | 10,000 | Stable base |
-
-**Key executive findings:**
-
-1. **Revenue is driven by a small champion segment.** The top 5% of customers (Champions tier) generate disproportionate revenue — consistent with the Pareto distribution used in data generation and confirmed by the RFM treemap.
-
-2. **Loyal Customers peak at 15–25 months of tenure.** Beyond that window, engagement and average spend drop significantly — signaling a retention risk window that is actionable.
-
-3. **Champions grow in value with tenure.** Unlike other segments, Champions' average spend increases continuously up to 75 months of relationship — making long-term retention the highest-ROI strategy.
-
-4. **Cohort retention decays rapidly after Month 1.** January cohort retains ~59% in Month 1, dropping to ~36% by Month 3 — typical for premium fashion e-commerce, but improvement is feasible through loyalty incentives.
-
----
-
-## Dataset Structure & ERD
-
-The database was generated entirely in Python using a Pareto-weighted behavioral model and loaded into PostgreSQL under the `vistara` schema.
-
-```
-vistara_db
-└── schema: vistara
-    ├── dim_customers         — 10,000 customers with tier assignment
-    ├── dim_products          — product catalog with categories
-    ├── dim_sales_outlet      — store locations
-    ├── dim_dates             — full date dimension
-    ├── fact_sales_receipts   — ~219K transactions
-    ├── fact_order_details    — line-level detail (price, qty, discount)
-    ├── fact_returns          — ~1,572 returns (~0.72% return rate)
-    └── fact_inventory        — stock records
-```
-
-**Customer tier distribution (Pareto weights):**
-
-| Tier | % of Customers | Purchase Weight | Active Until |
-|------|---------------|----------------|-------------|
-| Champions | 5% | 50x | December |
-| Loyal | 15% | 15x | October |
-| Regular | 25% | 5x | July |
-| Occasional | 30% | 2x | April |
-| One-time | 25% | 0.5x | February |
-
-> The Pareto weighting ensures realistic purchase frequency variance: min 1 order, median 7, max 129 per customer.
-
----
-
-## Analytical SQL Views
-
-Five analytical views are built on top of the fact tables, forming the data layer consumed by Power BI.
-
-```
-fact_sales_receipts + fact_order_details + fact_returns
-        │
-        ├──► v_rfm_base          ← raw R/F/M values per customer
-        │         │
-        │    v_rfm_scores        ← NTILE(5) scores per dimension
-        │         │
-        │    v_rfm_segments      ← named segments (Champions, At Risk…)
-        │
-        ├──► v_churn_analysis    ← Active / At Risk / Churned
-        │
-        ├──► v_monthly_revenue   ← monthly net revenue summary
-        │
-        ├──► v_monthly_retention ← retained vs. new customers per month
-        │
-        └──► v_cohort_retention  ← cohort matrix (M0, M1, M2… retention %)
-```
-
-**RFM scoring logic (NTILE-based):**
-
-```sql
-recency_score   = 6 - NTILE(5) OVER (ORDER BY days_since_last_purchase ASC)
-frequency_score = NTILE(5) OVER (ORDER BY total_orders ASC)
-monetary_score  = NTILE(5) OVER (ORDER BY net_spend ASC)
-```
-
-Score 5 = best in that dimension. Recency is inverted: fewer days since last purchase = higher score.
-
-**Churn classification:**
-
-| Status | Criterion |
-|--------|-----------|
-| Active | Last purchase ≤ 90 days ago (Oct–Dec 2024) |
-| At Risk | Last purchase 91–180 days ago (Jul–Sep 2024) |
-| Churned | Last purchase > 180 days ago (before Jul 2024) |
-
----
-
-## Revenue Trend Analysis
-
-<div align="center">
-
-*Page 1 — Monthly Revenue with dynamic period selector (1W · 1M · 3M · 6M · 9M · 1Y)*
-
-</div>
-
-**Architecture:** All measures compute their date range internally using `EDATE()` and `YYYYMM` arithmetic — no `DATESBETWEEN()` — because PostgreSQL views have no active relationship with `dim_dates` in the Power BI model.
-
-**Key findings:**
-
-- Revenue peaks appear in **Q1 (January)** and **Q4 (November–December)**, consistent with fashion retail seasonal patterns
-- The **Moving Average** line (configurable 3M / 6M / 12M window) smooths spikes and confirms an underlying upward trend through Q3
-- **MoM Revenue card** compares the last full month vs. the previous month — always anchored to December vs. November regardless of the period slicer selection
-- The **period selector** dynamically adjusts all KPI cards, the bar chart, and the comparison subtitle simultaneously via a disconnected table (`Date selection`) with SELECTEDVALUE() bridge
-
----
-
-## RFM Segmentation Analysis
-
-<div align="center">
-
-*Page 2 — RFM Treemap + Scatter Chart*
-
-</div>
-
-**Segment distribution (treemap):**
-
-| Segment | Condition | Typical Behavior |
-|---------|-----------|-----------------|
-| Champions | R≥4, F≥4, M≥4 | High frequency, high spend, very recent |
-| Loyal Customers | F≥4, M≥3 | Consistent buyers, moderate recency |
-| Potential Loyalists | R≥3, F≥2 | Recent but still building frequency |
-| At Risk | R≤2, F≥3 | Used to buy often, now inactive |
-| Hibernating | R≤2, F≤2 | Low engagement across all dimensions |
-| New Customers | R≥4, F≤1 | First purchase was recent |
-
-**Spend & frequency by customer tenure (scatter chart):**
-
-The bubble chart (`avg net_spend` × `months_active`, sized by `total_orders`) reveals two distinct behavioral curves:
-
-- **Loyal Customers** peak at **15–25 months** of tenure, then decline — creating a clear retention risk window
-- **Champions** show a **continuously increasing** spend curve up to 75 months — the longer the relationship, the more valuable they become
-- A data gap between months 10–30 in Champions reflects the bimodal distribution of acquisition dates in the synthetic dataset
-
----
-
-## Churn Analysis
-
-<div align="center">
-
-*Page 2 — Dynamic Pie Chart (Bookmarks)*
-
-</div>
-
-The pie chart switches dynamically between **RFM segment view** and **churn status view** via a Bookmark Navigator — two pie charts stacked in the same canvas position, toggled by bookmarks.
-
-> **Technical note (D-011):** Field Parameters with columns from two unrelated tables throw "too many columns in Legend" in pie charts. The bookmark pattern is the correct Power BI approach for this case.
-
-**Churn rate card behavior:**
-- Color logic is **inverted** vs. revenue cards: a decrease (▼) is green, an increase (▲) is red
-- The `1Y` period uses a fixed Churned count from `v_churn_analysis[churn_status]` rather than a date-range filter — because "Churned" is already defined as > 180 days inactive, so filtering by a 1Y window would double-count
-
----
-
-## Cohort Retention Analysis
-
-<div align="center">
-
-*Page 2 — Cohort Heatmap (HTML Visual)*
-
-</div>
-
-The cohort matrix tracks what percentage of customers acquired in month M return in months M+1, M+2, M+3...
-
-**How it works:**
-
-```sql
--- Assign each customer to their first-purchase month (cohort)
--- Then LEFT JOIN with subsequent months to tag Retained vs. New
--- retention_pct = customers active in month M / cohort size at M0
-```
-
-**Sample output:**
-
-| Cohort | M0 | M1 | M2 | M3 | M4 |
-|--------|----|----|----|----|-----|
-| 2024-01 | 100% | 59.3% | 63.4% | 60.4% | 58.9% |
-| 2024-02 | 100% | 37.0% | 36.6% | 27.9% | 28.7% |
-| 2024-03 | 100% | 38.4% | 25.8% | 24.8% | 27.5% |
-
-> The heatmap is rendered as a **DAX HTML measure** (`Cohort Heatmap HTML`) using nested `CONCATENATEX` — one iteration per cohort row, one per month column — with inline CSS color scale. This replaces the native Power BI Matrix visual for full control over empty cells, color gradients, and the absence of a misleading Total column.
-
-**Color scale:**
-
-| Range | Color | Meaning |
-|-------|-------|---------|
-| ≥ 80% | `#2D6A4F` | Excellent retention |
-| 60–79% | `#52B788` | Good |
-| 40–59% | `#E9C46A` | Average |
-| 20–39% | `#E76F51` | At risk |
-| < 20% | `#C05B5B` | Critical |
-
----
-
-## Dashboard Pages
-
-| Page | Title | Visuals | Status |
-|------|-------|---------|--------|
-| 1 | Executive KPIs | Bar+line chart · 4 HTML KPI cards · Period slicer | 🔄 In progress |
-| 2 | RFM + Retention | Treemap · Scatter · Pie (bookmarks) · Combo chart · Cohort heatmap | 🔄 In progress |
-| 3 | Churn Analysis | — | ⏳ Pending |
-| 4 | Monthly Revenue | Deneb Vega-Lite bar+line chart | 🔄 Active |
-
-**Power BI model relationships:**
-
-```
-dim_customers    ──► v_rfm_segments      (customer_id)
-dim_customers    ──► v_churn_analysis    (customer_id)
-dim_sales_outlet ──► v_rfm_segments      (sales_outlet_id → home_store)
-v_monthly_revenue ──► v_monthly_retention (year_month_key)  [One-to-One]
-```
-
-> `year_month_key = year_id * 100 + month_id` — created in Power Query on both tables to enable a single-column relationship between monthly views (D-012).
-
----
-
-## Recommendations
-
-### Revenue
-- **Capitalize on Q1 momentum.** January shows the highest revenue peaks — launch loyalty campaigns in December to prime customers for Q1 purchasing.
-- **Investigate Q3 softness.** The moving average confirms a mid-year dip. A targeted mid-year promotion (July) could smooth the seasonal curve.
-
-### RFM Segmentation
-- **Intervene on Loyal Customers at months 24–28.** The scatter chart shows a sharp spend decline after month 25. A personalized win-back offer at this tenure milestone could push them into Champions.
-- **Protect Champions at all costs.** Their value increases with time — churn prevention for this segment has the highest ROI of any retention investment.
-- **Re-engage At Risk customers with high F/M scores.** They used to buy frequently and spend well; a "we miss you" campaign with an exclusive incentive has a strong behavioral foundation.
-
-### Churn
-- **Target the At Risk cohort before they cross 180 days.** The churn classification flips at 180 days — intervening at days 120–150 gives a 30–60 day window before a customer becomes Churned.
-- **Monitor new customers at Month 1.** Cohort retention data shows the steepest drop between M0 and M1. An onboarding email sequence post-first-purchase could significantly improve this rate.
-
-### Cohort Retention
-- **January and February cohorts retain best.** These are the highest-quality acquisition months — marketing spend on customer acquisition is most efficient in Q1.
-- **Late-year cohorts (Oct–Dec) have very thin M1 data.** Either improve post-purchase engagement for these customers, or adjust acquisition spend downward in Q4 and shift budget to retention.
-
----
-
-## Technical Design Decisions
-
-| Decision | Choice | Rationale |
-|----------|--------|-----------|
-| RFM scoring | NTILE(5) | Creates equal-sized groups — more stable than fixed thresholds |
-| Filter strategy | Internal FILTER + YYYYMM arithmetic | `DATESBETWEEN` doesn't propagate to PostgreSQL views (no active relationship) |
-| Slicer architecture | Disconnected tables + SELECTEDVALUE() | Keeps fact tables clean; avoids model contamination |
-| Pie chart switching | Bookmarks + 2 stacked visuals | Field Parameters fail with unrelated tables in Legend bucket |
-| Cohort heatmap | DAX HTML measure | Full CSS control — no misleading Total column, clean empty cells |
-| Monthly granularity | `v_monthly_revenue` (not daily) | 366 bars per year are unreadable; monthly view is analytically sufficient |
-| Return rate | 0.72% (~1,572 returns) | Based on `unit_price` × 1 unit per return, not `line_total` |
-
----
-
-## Tech Stack
-
-| Layer | Technology |
-|-------|-----------|
-| Data Generation | Python (Pandas, NumPy, Faker) |
-| Database | PostgreSQL 16 — `vistara_db`, schema `vistara` |
-| ORM / Driver | Npgsql (Power BI connector) |
-| Semantic Model | Power BI Desktop (Import mode) |
-| Custom Visuals | Deneb (Vega-Lite 6) · HTML Viewer |
-| DAX Patterns | SWITCH · SELECTEDVALUE · CONCATENATEX · GENERATESERIES · EDATE |
-| SQL Patterns | CTE chains · NTILE · LAG · DATE_TRUNC · AGE · Window functions |
-| Documentation | Obsidian (wiki vault) |
-
----
-
-<div align="center">
-
-*VISTARA is a fictional brand created for educational and portfolio purposes.*  
-*All data is synthetically generated — no real customer information is used.*
-
-</div>
+</table>
+<table align="center">
+  <tr>
+    <h1 align="center">Recommendations</h1>
+    <table align="center">
+    
+</table>
+    <table>
+      <tr>
+        <td>
+          <ul>
+            Based on the uncovered insights, here are actionable items that VISTARA can take away from our analysis.
+            <h3> Customer Acquisition & Cohorts</h3>
+            <li>Investigate and fix the systemic retention collapse at the July → August 2024 transition</li>
+                <ul><li>The May cohort fell from 53.9% (July) to 1.0% (August); June fell from 48.7% to 2.6% over the same step</li></ul>
+            <li>Reverse-engineer and replicate the January acquisition motion — the only cohort that produced durable customers</li>
+                <ul><li>January acquired 4,382 customers and held 58–63% retention for six consecutive months</li></ul>
+                <ul><li>Rebuild a repeatable acquisition channel; new-customer inflow has effectively stopped since April</li></ul>
+             <h3>Customer Segmentation (RFM) </h3>
+            <li>Make Champion retention the top budget priority </li>
+                <ul><li>Champions are 27.1% of buyers (1,916 customers) yet generate 76.4% of net revenue</li></ul>
+                <ul><li>Together with Loyal Customers, 39.9% of customers produce 91.1% of revenue</li></ul>
+                <ul><li>A Champion spends 2.8× the base average and orders 34× more often than a Hibernating customer</li></ul>
+            <li>Aim reactivation spend at At Risk, not Hibernating</li>
+                <ul><li> At Risk (412 customers) are proven repeat buyers: avg 4.4 past orders and ~13,600 MXN spend</li></ul>
+                <ul><li> Hibernating average 1.5 orders and ~4,600 MXN — essentially one-and-done.</li></ul>
+                <ul><li>Per customer, an At Risk buyer is worth ~3× a Hibernating one</li></ul>
+            <h3>Churn & Reactivation</h3>
+            <li>Anchor retention programs on the active 30% of the base, where nearly all value sits</li>
+                <ul><li>The Active band (≤90 days) is 30.4% of buyers but holds 76.0% of historical revenue.</li></ul>
+                <ul><li>Add a post-first-purchase onboarding sequence — the largest single loss is the second purchase that never happens</li></ul>
+            <h3>Products / Categories</h3>
+            <li>Prioritize inventory for the two premium categories that carry the business — Winter Wear and Formal Wear.</li>
+                <ul><li>Together they generate 61.9% of net revenue from only ~40% of order volume.</li></ul>
+            <li>Monetize the high-traffic Casual Wear category — it draws the most customers but the least revenue per sale</li>
+                <ul><li>Casual Wear is the most-purchased category</li></ul>
+                <ul><li>Opportunity: bundling, premium lines, or add-ons to lift AOV on the category customers already choose most</li></ul>
+            <li>Re-evaluate Sportswear and Beachwear, which under-deliver on revenue relative to their volume</li>
+                <ul><li>Sportswear: 20.0% of units but only 13.2% of revenue (avg price 897 MXN).</li></ul>
+                <ul><li>Beachwear: smallest on every metric — 10.0% of volume, 5.6% of revenue (22.0M MXN), lowest price (761 MXN); a candidate for lean</li></ul>
+          </ul>
+        </td>
+      </tr>
+    </table>
+  </tr>
+</table>

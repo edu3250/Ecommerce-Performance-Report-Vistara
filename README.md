@@ -223,14 +223,7 @@
                 share of transactions. </li>
           </ul>
         </li>
-        <li>Declining Growth Throughout 2022 – Indicating Weak Consumer Demand <ul>
-            <li>Each quarter in 2022 experienced a downward trend.</li>
-            <li>Q1: Started fairly strong ($704K in Jan) but lower than 2021.</li>
-            <li>Q2 - Q3: Dropped further, below $500K per month and continued decline through Q3 with Aug/Sep below $400K.</li>
-            <li>Q4: <strong>Historic low, indicating critical demand issues</strong>. This suggests customer retention, pricing, 
-                or product-market fit issues. TechSphere may need to re-strategize through marketing, promotions, or change in pricing. </li>
-          </ul>
-        </li>
+        
       
    
   </tr>

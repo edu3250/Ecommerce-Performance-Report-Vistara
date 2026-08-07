@@ -149,7 +149,7 @@
             </li>
           </ul>
         </li>
-        <li>November Peak<ul>
+        <li>November AOV Dip<ul>
             <li>A visible AOV contraction in November aligns with El Buen Fin. 
                 Discount-driven purchases compress per-order value even among high-frequency customers, pulling AOV to its second-lowest 
                 point of the year (~$1,550). December's immediate recovery to ~$1,820 confirms this as a transient promotional effect.</li>

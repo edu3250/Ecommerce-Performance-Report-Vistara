@@ -139,7 +139,6 @@
               <strong>The highest growth in average order value (AOV) was recorded in May</strong> ,
                   peaking at $1,850  and remaining steady until an abrupt drop to $1,550 in Q4 (November–December).
             </li>
-            <li>a.</li>
           </ul>
         </li>
         <li>January situation <ul>
@@ -166,7 +165,6 @@
         <li>The number of orders remained constant (17K) during Q2 and Q3, with peaks associated with seasonal trends.
             Order count and AOV move in opposite directions only in the year's cheap-basket surges: 
             January's acquisition wave (small first-time orders) and November's discount event both spiked volume while pushing AOV to its annual lows — 1,597 and 1,555 MXN </li>
-        <li>More Orders Don't Lower the Ticket — More Small Orders Do </li>
       </ol>
     </td>
   </tr>
@@ -260,7 +258,7 @@
             <li>The entire bottom 40% (Hibernating, At Risk, New) contributes about 4%. A Champion spends 2.8× the base average and buys 34× more often than a Hibernating customer</li>
             <li>More than half the base is already gone. 52.6% of buyers are Churned  yet hold only 18.6% of historical spend, while the Active 30.4% hold 76.0%. the health of the business  
             depents entirely of the champions tier</li>
-            <li>"At Risk" isthe right save target — "Hibernating" is mostly unrecoverable.At Risk (412 customers) are proven repeat buyers — avg 4.4 past orders and ~13,600 MXN spend 
+            <li>"At Risk" is the right save target — "Hibernating" is mostly unrecoverable.At Risk (412 customers) are proven repeat buyers — avg 4.4 past orders and ~13,600 MXN spend 
                 — who have gone cold. Hibernating (2,290 customers, the single largest segment) averages 1.5 orders and ~4,600 MXN: essentially one-and-done. Per head, an At Risk customer 
                 is worth ~3× a Hibernating one</li>
           </ul>

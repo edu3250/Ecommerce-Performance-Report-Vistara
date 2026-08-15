@@ -20,7 +20,7 @@
             identifying where revenue is being generated, which customers are at risk of churning, and where the highest-value acquisition cohorts are coming from. <br>
             <br>
         <body>
-        <h3>Northstar metrics for this analysis:</h3>
+        <h3>North Star metrics for this analysis:</h3>
         <h4>
             <ul><li>📈 Monthly net revenue trend and MoM growth</li>
                 <li>🎯 RFM customer segmentation (Recency · Frequency · Monetary)</li>
@@ -35,7 +35,11 @@
   <tr>
     <div width="920">   
       <h1 align="center">Executive Summary</h1>
-      <h3 align="center">BI Dashboard (2024 Period)</h3>
+      <h3 align="center">
+      <a href="https://github.com/edu3250/Vistara/blob/main/vistara.pbix">
+        BI Dashboard (2024 Period)
+        </a>
+      </h3>
       <div align="center">
         <img width="1430" height="807" alt="image" src="https://github.com/user-attachments/assets/2d07c2f8-e35c-4dea-9fc6-7afc8c98154f" />
         <img width="1141" height="645" alt="image" src="https://github.com/user-attachments/assets/8b38d219-cda6-429b-9360-a8d607fbc8f4" />
@@ -45,17 +49,16 @@
           <li>
             <strong>Revenue Growth and Peak Performance:</strong>
             <ul>
-              <li>Q4 2024 was the strongest period, with december recording the highest montlhy revenue of the year at approximately $44M.</li>
+              <li>Q4 2024 was the strongest period, with December recording the highest monthly revenue of the year at approximately $44M.</li>
               <li>Q1 saw the highest volume of new customer acquisition. Revenue grew progressively through the year as repeat purchases accumulated, particularly among Champions and Loyal customers.</li>
-              <li>ssss</li>
+              <li>May ($33.8M) also maintained strong sales, though a downward trend started afterward</li>
             </ul>
           </li>
           <li>
             <strong>Where Revenue Comes From</strong>
             <ul>
-              <li>A small group of customers. 27% of the customers (champions) generate 76% of total revenue.The remaining customer base contributes meaningfully in Q1 and Q2 but shows
+              <li>A small group of customers. 27% of the customers (Champions) generate 76% of total revenue.The remaining customer base contributes meaningfully in Q1 and Q2 but shows
                   declining activity through the second half of the year.</li>
-              <li>ssss.</li>
             </ul>
           </li>
         </ol>
@@ -66,15 +69,15 @@
             <strong>Quarterly Insights & Seasonal Trends</strong>
             <ul>
               <li>Q3 and Q4 of each year typically show strong performance, likely due to seasonal shopping trends and marketing efforts.</li>
-              <li>Q1  started well (34M$ in January), but revenue quickly dropped, signaling an overall weak retention rate over the rest of the year.</li>
+              <li>Q1  started well ($34M in January), but revenue quickly dropped, signaling an overall weak retention rate over the rest of the year.</li>
             </ul>
           </li>
           <li>
             <strong>Key Takeaways & Recommendations</strong>
             <ul>
-              <li>Investigate the causes of the sharp drop in new customers starting in Q1 (e.g., market changes, competition, internal factors).</li>
-              <li>Prioritize high-performance periods (e.g., the fourth quarter) to refine marketing and sales strategies.</li>
-              <li>Reevaluate the business strategy for 2025, primarily addressing the lack of new customers by focusing on pricing and promotions to regain momentum..</li>
+              <li>Investigate the causes of the sharp drop in new customers starting in Q1 (e.g, market changes, competition, internal factors).</li>
+              <li>Prioritize high-performance periods (e.g, the fourth quarter) to refine marketing and sales strategies.</li>
+              <li>Reevaluate the business strategy for 2025, primarily addressing the lack of new customers by focusing on pricing and promotions to regain momentum.</li>
             </ul>
           </li>
         </ol>
@@ -111,7 +114,7 @@
       <strong>Sales Revenue</strong>
       <ol>
         <li>December Peak — Q4 Concentration Defines the Annual Revenue Profile <ul>
-            <li>December recorded the highest monthly revenue of the year (~$44M)-21% more than the previous month (34M) </li>
+            <li>December recorded the highest monthly revenue of the year (~$44M)- 21% more than the previous month ($34M) </li>
             <li>Confirming Q4 as the primary revenue driver. This concentration reflects the Champions segment's sustained activity through December, a tier that carries 
                 a 50x purchase weight relative to baseline buyers. </li>
             <li>The growth is directly linked to the increase in the number of orders during the corresponding period (up 29%), rising from 17,000 to 23,000.</li>
@@ -119,51 +122,49 @@
         </li>
         <li>Mid-Year Stability Masks a Structural Shift <ul>
             <li>From February through October, monthly revenue holds relatively stable in the $30–34M range. As lower-value tiers exit their active purchase windows the total order 
-                count declines while per-order value rises. Revenue remains stable not because of consistent volume, but because higher-value segments progressively absorb a larger 
+                count declines while per-order value rises. Revenue remains stable  because higher-value segments progressively absorb a larger 
                 share of transactions. </li>
           </ul>
         </li>
         <li>May is the second-highest revenue month. <ul>
-            <li>A seasonal peak in May, resulting in a figure of 33.8M, confirms that promotional periods are the most important times to focus sales efforts.    </li>
-            <li>where there were 22% more female customers, and they purchased 20% more than men (14k items purchased)</li>
+            <li>A seasonal peak in May ($33.8M) confirms that promotional periods are the most important times to focus sales efforts.    </li>
+            <li>In May, female customers outnumbered male buyers by ~18% and purchased ~21% more items (≈14K units).</li>
           </ul>
         </li>
       </ol>
       <strong>Average Order Value</strong>
       <ol>
-        <li> Sharp increase in average order value (AOV) apart from March, followed by a sharp decline in November. <ul>
+        <li> From February onwards, AOV remained constant (≈$1,800) until a sharp drop in November ($1,554).. <ul>
             <li>
               <strong>The highest growth in average order value (AOV) was recorded in May</strong> ,
                   peaking at $1,850  and remaining steady until an abrupt drop to $1,550 in Q4 (November–December).
             </li>
-            <li>a.</li>
           </ul>
         </li>
         <li>January situation <ul>
             <li>
               89.4% of customers who made their first purchase in January made more than one purchase; 
-                this is a very strong figure compared to the annual average, which shows that only 60% of customers 
-                who buy once return to make another purchase..
+                this is a very strong figure compared to the annual average, which shows that only 78.5% of customers 
+                who buy once return to make another purchase.
             </li>
           </ul>
         </li>
-        <li>November Peak<ul>
+        <li>November AOV Dip<ul>
             <li>A visible AOV contraction in November aligns with El Buen Fin. 
-                Discount-driven purchases compress per-order value even among high-frequency customers, pulling AOV to its second-lowest 
+                Discount-driven purchases compress per-order value even among high-frequency customers, pulling AOV to its lowest 
                 point of the year (~$1,550). December's immediate recovery to ~$1,820 confirms this as a transient promotional effect.</li>
           </ul>
         </li>
       </ol>
       <strong>Order Count</strong>
       <ol>
-        <li>Order count follows the inverse of AOV throughout 2024: highest in January and declining progressively through Q4 as lower-value segments exit. 
+        <li>Order count follows the inverse of AOV throughout 2024: highest in January (excluding the promotional spike in December) and declining progressively through Q4 as lower-value segments exit. 
             Yet revenue grows — confirming that VISTARA's performance is quality-driven rather than volume-driven</li>
-        <li>The number of orders closely tracks sales revenue, indicating that the revenue peak in November is primarily driven by an increase in order volume, 
+        <li>The number of orders closely tracks sales revenue, indicating that the revenue peak in December is primarily driven by an increase in order volume, 
             despite the drop in average order value (AOV). </li>
         <li>The number of orders remained constant (17K) during Q2 and Q3, with peaks associated with seasonal trends.
             Order count and AOV move in opposite directions only in the year's cheap-basket surges: 
             January's acquisition wave (small first-time orders) and November's discount event both spiked volume while pushing AOV to its annual lows — 1,597 and 1,555 MXN </li>
-        <li>More Orders Don't Lower the Ticket — More Small Orders Do </li>
       </ol>
     </td>
   </tr>
@@ -176,17 +177,17 @@
       <td width="333" valign="top">
       <h3>The Best and Worst</h3>
       <ul>
-        <li>Winter Wear led annual revenue at $123.4M MXN the top category consistently across all 12 months.</li>
+        <li>Winter Wear led annual revenue at $123.4M MXN-the top category consistently across all 12 months.</li>
         <li>Formal Wear is the second-best at $119.8M MXN (30.5%), separated from Winter Wear by only $3.6M.</li>
-        <li>Beachwear is the lowest-revenue category at $22.0M MXN (5.6%) — unlike typical seasonality expectations, it peaks in December .</li>
+        <li>Beachwear is the lowest-revenue category at $22.0M MXN (5.6%) — unlike typical seasonality expectations, it peaks in December.</li>
       </ul>
       </td>
   <td width="333" valign="top">
       <h3>AOV Over Time</h3>
       <ul>
-        <li>December AOV is the highest month of the year — holiday gifting and premium seasonal fashion drive larger average tickets across all customer tiers.</li>
+        <li>May AOV is the highest month of the year ($1,858) — driven by Día de las Madres.</li>
         <li>El Buen Fin creates a visible AOV dip. Total November revenue still exceeds October because volume growth outweighs the AOV decline. </li>
-        <li>A secondary May AOV uptick is visible across categories, driven by Día de las Madres .</li>
+        <li>A secondary December AOV uptick is visible across categories, driven by holiday gifting.</li>
         <li>Winter Wear and Formal Wear are the primary AOV drivers — their premium price points keep the overall average elevated relative to Casual Wear (
             $75.7M on higher volume) and Beachwear ($22.0M at the lowest price tier).</li>
       </ul>
@@ -219,10 +220,9 @@
             the acquisition of new customers came to a complete halt, with only 12 to 38 new customers per month.</li>
           </ul>
         </li>
-        <li>The greatest customer loss occurs between M1 and M3<ul>
-            <li>From February through October, monthly revenue holds relatively stable in the $30–34M range. As lower-value tiers exit their active purchase windows the total order 
-                count declines while per-order value rises. Revenue remains stable not because of consistent volume, but because higher-value segments progressively absorb a larger 
-                share of transactions. </li>
+        <li>Most customers are lost at the first step<ul>
+            <li>The steepest loss is immediate: in every cohort, the largest drop is from Month 0 to Month 1 — the one-and-done buyers. 
+                Overall, 21.5% of buyers never return after their first purchase, concentrated in the weak post-January cohorts (39.6% one-time) versus January's 10.4% </li>
           </ul>
         </li>
         
@@ -253,11 +253,11 @@
       <tr>
         <td>
           <ul>
-            <li>Revenue is  alredy concentrated dangerously in a single segment.Champions-27.1% of the active base (1,916 of 7,063 buyers) — generate 76.4% of all net spend.</li>
+            <li>Revenue is concentrated dangerously in a single segment. Champions-27.1% of the active base (1,916 of 7,063 buyers) — generate 76.4% of all net spend.</li>
             <li>The entire bottom 40% (Hibernating, At Risk, New) contributes about 4%. A Champion spends 2.8× the base average and buys 34× more often than a Hibernating customer</li>
             <li>More than half the base is already gone. 52.6% of buyers are Churned  yet hold only 18.6% of historical spend, while the Active 30.4% hold 76.0%. the health of the business  
-            depents entirely of the champions tier</li>
-            <li>"At Risk" isthe right save target — "Hibernating" is mostly unrecoverable.At Risk (412 customers) are proven repeat buyers — avg 4.4 past orders and ~13,600 MXN spend 
+            depends entirely on the Champions tier</li>
+            <li>"At Risk" is the right save target — "Hibernating" is mostly unrecoverable. At Risk (412 customers) are proven repeat buyers — avg 4.4 past orders and ~13,600 MXN spend 
                 — who have gone cold. Hibernating (2,290 customers, the single largest segment) averages 1.5 orders and ~4,600 MXN: essentially one-and-done. Per head, an At Risk customer 
                 is worth ~3× a Hibernating one</li>
           </ul>
@@ -276,15 +276,13 @@
     </div>
     </td>
     <td valign="top" width="500">
-      <ul>
-        <li>At the end of the year<ul>
-        <li>At the end of the year 52.6% of customers (3,718) are Churned., yet they account for just 18.6% of net revenue. 
+        <ul>
+        <li>The churn rate increased by approximately 8.7% per month: from 0% to 52.6% over six months.</li>
+        <li>At the end of the year 52.6% of customers (3,718) are Churned, yet they account for just 18.6% of net revenue. 
             The Active 30.4% (2,144 customers) hold 76.0%. Churn has hollowed out the base by headcount, but value stays concentrated in the recent, active core</li>
-             </ul>
-        <li>Churn is gender neutral.<ul>
-          <li>Women are ~55% of the base and men ~45%, and that same ratio repeats inside every churn tier</li>
-            </ul>
-      </ul>
+        <li>Churn is gender neutral.
+            Women are ~55% of the base and men ~45%, and that same ratio repeats inside every churn tier</li>
+        </ul>
     </td>
   </tr>
 </table>
@@ -302,7 +300,7 @@
       <tr>
         <td>
           <ul>
-            Based on the uncovered insights, here are actionable items that VISTARA can take away from our analysis.
+            <h4>Based on the uncovered insights, here are actionable items that VISTARA can take away from our analysis.</h4>
             <h3> Customer Acquisition & Cohorts</h3>
             <li>Investigate and fix the systemic retention collapse at the July → August 2024 transition</li>
                 <ul><li>The May cohort fell from 53.9% (July) to 1.0% (August); June fell from 48.7% to 2.6% over the same step</li></ul>
